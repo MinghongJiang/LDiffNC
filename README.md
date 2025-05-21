@@ -28,6 +28,7 @@ To train the model(s), run this command:
 python main.py --datapath ./data/... --model_fixed ./pretrained_models/...
 
 Example:
+
 python main.py --datapath ./data/CIFAR100_LT001 --model_fixed ./pretrained_models/resnet32_cifar100_lt001.checkpoint
 
 ## Evaluation
@@ -37,6 +38,7 @@ To evaluate model, run:
 python main.py --datapath ./data/... --model_fixed ./pretrained_models/... --eval .\saved_models\...
 
 Example:
+
 python main.py --datapath ./data/CIFAR100_LT001 --model_fixed ./pretrained_models/resnet32_cifar100_lt001.checkpoint --eval .\saved_models\ckpt_best_ce.checkpoint   
 
 ## Acknowledgement
