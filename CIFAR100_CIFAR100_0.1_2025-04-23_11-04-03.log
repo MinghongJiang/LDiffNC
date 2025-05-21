@@ -1,0 +1,3841 @@
+INFO:root:--epoch: 400 --dataset: CIFAR100 --imb_factor:0.1 --feature_ratio:0.2 --diffusion_step:1000 (DDPM official)
+INFO:root:Test performance on test set.
+INFO:root:fc_norm = False in model config, fc_layer = nn.Linear
+INFO:root:'none' given in ['ensemble_info']['name'], load regular network.
+INFO:root:epoch: 0, the diffusion loss is 8.683699479350796
+INFO:root:epoch: 1, the diffusion loss is 2.4273146390914917
+INFO:root:epoch: 2, the diffusion loss is 1.434304376701256
+INFO:root:epoch: 3, the diffusion loss is 1.3347917980961985
+INFO:root:epoch: 4, the diffusion loss is 1.0891346041258279
+INFO:root:epoch: 5, the diffusion loss is 0.9364669601638596
+INFO:root:epoch: 6, the diffusion loss is 0.8529756402040457
+INFO:root:epoch: 7, the diffusion loss is 0.8458450684299716
+INFO:root:epoch: 8, the diffusion loss is 0.811679893499845
+INFO:root:epoch: 9, the diffusion loss is 0.7888379484028011
+INFO:root:epoch: 10, the diffusion loss is 0.7954157234786393
+INFO:root:epoch: 11, the diffusion loss is 0.8260741729240912
+INFO:root:epoch: 12, the diffusion loss is 0.7628238371440342
+INFO:root:epoch: 13, the diffusion loss is 0.740589665128039
+INFO:root:epoch: 14, the diffusion loss is 0.7504592901700503
+INFO:root:epoch: 15, the diffusion loss is 0.8042278994213451
+INFO:root:epoch: 16, the diffusion loss is 0.7608241493051703
+INFO:root:epoch: 17, the diffusion loss is 0.784228113564578
+INFO:root:epoch: 18, the diffusion loss is 0.8154656530974748
+INFO:root:epoch: 19, the diffusion loss is 0.7141973345310657
+INFO:root:epoch: 20, the diffusion loss is 0.7512827345303127
+INFO:root:epoch: 21, the diffusion loss is 0.7502727802697714
+INFO:root:epoch: 22, the diffusion loss is 0.7334841954243647
+INFO:root:epoch: 23, the diffusion loss is 0.7622718702663075
+INFO:root:epoch: 24, the diffusion loss is 0.7323971081089664
+INFO:root:epoch: 25, the diffusion loss is 0.6979112307746689
+INFO:root:epoch: 26, the diffusion loss is 0.7180222644434346
+INFO:root:epoch: 27, the diffusion loss is 0.6990510132405665
+INFO:root:epoch: 28, the diffusion loss is 0.6974647068358087
+INFO:root:epoch: 29, the diffusion loss is 0.7190949731058889
+INFO:root:epoch: 30, the diffusion loss is 0.6848767871980543
+INFO:root:epoch: 31, the diffusion loss is 0.7119290387475645
+INFO:root:epoch: 32, the diffusion loss is 0.7494500426502971
+INFO:root:epoch: 33, the diffusion loss is 0.6912482961431726
+INFO:root:epoch: 34, the diffusion loss is 0.7317638428180249
+INFO:root:epoch: 35, the diffusion loss is 0.6895728970502878
+INFO:root:epoch: 36, the diffusion loss is 0.6889719336063831
+INFO:root:epoch: 37, the diffusion loss is 0.6833650632338091
+INFO:root:epoch: 38, the diffusion loss is 0.6989058712860207
+INFO:root:epoch: 39, the diffusion loss is 0.6782535600971866
+INFO:root:epoch: 40, the diffusion loss is 0.6874626998777513
+INFO:root:epoch: 41, the diffusion loss is 0.6788777840601934
+INFO:root:epoch: 42, the diffusion loss is 0.6855437593026594
+INFO:root:epoch: 43, the diffusion loss is 0.688427683594939
+INFO:root:epoch: 44, the diffusion loss is 0.6771325445794439
+INFO:root:epoch: 45, the diffusion loss is 0.6867080036695902
+INFO:root:epoch: 46, the diffusion loss is 0.686200829295369
+INFO:root:epoch: 47, the diffusion loss is 0.672343778919864
+INFO:root:epoch: 48, the diffusion loss is 0.6829639286189885
+INFO:root:epoch: 49, the diffusion loss is 0.672757625579834
+INFO:root:epoch: 50, the diffusion loss is 0.6823484007414286
+INFO:root:epoch: 51, the diffusion loss is 0.6747046515539095
+INFO:root:epoch: 52, the diffusion loss is 0.6751099166932044
+INFO:root:epoch: 53, the diffusion loss is 0.6774752991540092
+INFO:root:epoch: 54, the diffusion loss is 0.6733606674454429
+INFO:root:epoch: 55, the diffusion loss is 0.6749215234409679
+INFO:root:epoch: 56, the diffusion loss is 0.6723550411013813
+INFO:root:epoch: 57, the diffusion loss is 0.6838404876845223
+INFO:root:epoch: 58, the diffusion loss is 0.6844531382833209
+INFO:root:epoch: 59, the diffusion loss is 0.6695160703225569
+INFO:root:epoch: 60, the diffusion loss is 0.673388832575315
+INFO:root:epoch: 61, the diffusion loss is 0.6844074927367173
+INFO:root:epoch: 62, the diffusion loss is 0.6714507836800117
+INFO:root:epoch: 63, the diffusion loss is 0.6754115285811486
+INFO:root:epoch: 64, the diffusion loss is 0.6746063449166038
+INFO:root:epoch: 65, the diffusion loss is 0.6783947782082991
+INFO:root:epoch: 66, the diffusion loss is 0.672775560385221
+INFO:root:epoch: 67, the diffusion loss is 0.6693839639812321
+INFO:root:epoch: 68, the diffusion loss is 0.6723273636458756
+INFO:root:epoch: 69, the diffusion loss is 0.6691301643074333
+INFO:root:epoch: 70, the diffusion loss is 0.6810686015463495
+INFO:root:epoch: 71, the diffusion loss is 0.6734638260556506
+INFO:root:epoch: 72, the diffusion loss is 0.6609221797484857
+INFO:root:epoch: 73, the diffusion loss is 0.6993109870266605
+INFO:root:epoch: 74, the diffusion loss is 0.6734629830756744
+INFO:root:epoch: 75, the diffusion loss is 0.6725851305119404
+INFO:root:epoch: 76, the diffusion loss is 0.6660730699440102
+INFO:root:epoch: 77, the diffusion loss is 0.6762701574858133
+INFO:root:epoch: 78, the diffusion loss is 0.6657779418028794
+INFO:root:epoch: 79, the diffusion loss is 0.6719526594335382
+INFO:root:epoch: 80, the diffusion loss is 0.6782686153015534
+INFO:root:epoch: 81, the diffusion loss is 0.6676563070966052
+INFO:root:epoch: 82, the diffusion loss is 0.6688949999871192
+INFO:root:epoch: 83, the diffusion loss is 0.6598272517129973
+INFO:root:epoch: 84, the diffusion loss is 0.6779813154951319
+INFO:root:epoch: 85, the diffusion loss is 0.6616297348753198
+INFO:root:epoch: 86, the diffusion loss is 0.6587969769131053
+INFO:root:epoch: 87, the diffusion loss is 0.666705600627057
+INFO:root:epoch: 88, the diffusion loss is 0.66535879961856
+INFO:root:epoch: 89, the diffusion loss is 0.6645385328825418
+INFO:root:epoch: 90, the diffusion loss is 0.6665581402840552
+INFO:root:epoch: 91, the diffusion loss is 0.6653901733361282
+INFO:root:epoch: 92, the diffusion loss is 0.661705876325632
+INFO:root:epoch: 93, the diffusion loss is 0.6692379983988676
+INFO:root:epoch: 94, the diffusion loss is 0.6670982094554158
+INFO:root:epoch: 95, the diffusion loss is 0.6657988096212412
+INFO:root:epoch: 96, the diffusion loss is 0.6589303558523004
+INFO:root:epoch: 97, the diffusion loss is 0.6755141058525482
+INFO:root:epoch: 98, the diffusion loss is 0.6587594166978613
+INFO:root:epoch: 99, the diffusion loss is 0.6791447857757668
+INFO:root:epoch: 100, the diffusion loss is 0.6610581224614923
+INFO:root:epoch: 101, the diffusion loss is 0.661718309699715
+INFO:root:epoch: 102, the diffusion loss is 0.664903234351765
+INFO:root:epoch: 103, the diffusion loss is 0.6638855136834182
+INFO:root:epoch: 104, the diffusion loss is 0.7698129175545333
+INFO:root:epoch: 105, the diffusion loss is 0.663744131466011
+INFO:root:epoch: 106, the diffusion loss is 0.6664012198324327
+INFO:root:epoch: 107, the diffusion loss is 0.659228304763893
+INFO:root:epoch: 108, the diffusion loss is 0.6692168271386778
+INFO:root:epoch: 109, the diffusion loss is 0.6546536792408336
+INFO:root:epoch: 110, the diffusion loss is 0.6582876962500733
+INFO:root:epoch: 111, the diffusion loss is 0.6989729930828144
+INFO:root:epoch: 112, the diffusion loss is 0.6624714345126957
+INFO:root:epoch: 113, the diffusion loss is 0.6625696838676155
+INFO:root:epoch: 114, the diffusion loss is 0.664631800218062
+INFO:root:epoch: 115, the diffusion loss is 0.6617265676523184
+INFO:root:epoch: 116, the diffusion loss is 0.6556270122528076
+INFO:root:epoch: 117, the diffusion loss is 0.6617838121079779
+INFO:root:epoch: 118, the diffusion loss is 0.6667532665388924
+INFO:root:epoch: 119, the diffusion loss is 0.6590593581075792
+INFO:root:epoch: 120, the diffusion loss is 0.6615914655970289
+INFO:root:epoch: 121, the diffusion loss is 0.6602175816313013
+INFO:root:epoch: 122, the diffusion loss is 0.6636203124925688
+INFO:root:epoch: 123, the diffusion loss is 0.6647881555866886
+INFO:root:epoch: 124, the diffusion loss is 0.6584693309548614
+INFO:root:epoch: 125, the diffusion loss is 0.6577298710872601
+INFO:root:epoch: 126, the diffusion loss is 0.6619854801661008
+INFO:root:epoch: 127, the diffusion loss is 0.6575466649872916
+INFO:root:epoch: 128, the diffusion loss is 0.6629560729125877
+INFO:root:epoch: 129, the diffusion loss is 0.6557429355460328
+INFO:root:epoch: 130, the diffusion loss is 0.6595255059081239
+INFO:root:epoch: 131, the diffusion loss is 0.6525912362259704
+INFO:root:epoch: 132, the diffusion loss is 0.6583649686404637
+INFO:root:epoch: 133, the diffusion loss is 0.6616239532247766
+INFO:root:epoch: 134, the diffusion loss is 0.6617371076113218
+INFO:root:epoch: 135, the diffusion loss is 0.6630586958550787
+INFO:root:epoch: 136, the diffusion loss is 0.6583303158933466
+INFO:root:epoch: 137, the diffusion loss is 0.6582467184438334
+INFO:root:epoch: 138, the diffusion loss is 0.6572868119586598
+INFO:root:epoch: 139, the diffusion loss is 0.653887372512322
+INFO:root:epoch: 140, the diffusion loss is 0.6610420795230122
+INFO:root:epoch: 141, the diffusion loss is 0.6550452128633276
+INFO:root:epoch: 142, the diffusion loss is 0.6651662874531437
+INFO:root:epoch: 143, the diffusion loss is 0.6582416907533423
+INFO:root:epoch: 144, the diffusion loss is 0.6574232392496877
+INFO:root:epoch: 145, the diffusion loss is 0.6622365922122807
+INFO:root:epoch: 146, the diffusion loss is 0.6622180094966641
+INFO:root:epoch: 147, the diffusion loss is 0.6547116412744893
+INFO:root:epoch: 148, the diffusion loss is 0.6604333852792715
+INFO:root:epoch: 149, the diffusion loss is 0.6527730884490075
+INFO:root:epoch: 150, the diffusion loss is 0.6633875857700001
+INFO:root:epoch: 151, the diffusion loss is 0.658167548767932
+INFO:root:epoch: 152, the diffusion loss is 0.6572668250505026
+INFO:root:epoch: 153, the diffusion loss is 0.6556304522923061
+INFO:root:epoch: 154, the diffusion loss is 0.6646870792686165
+INFO:root:epoch: 155, the diffusion loss is 0.6608394910762836
+INFO:root:epoch: 156, the diffusion loss is 0.6602822294482937
+INFO:root:epoch: 157, the diffusion loss is 0.6673992879979023
+INFO:root:epoch: 158, the diffusion loss is 0.6541702685418067
+INFO:root:epoch: 159, the diffusion loss is 0.6540393937717784
+INFO:root:epoch: 160, the diffusion loss is 0.664314784786918
+INFO:root:epoch: 161, the diffusion loss is 0.6582248481837186
+INFO:root:epoch: 162, the diffusion loss is 0.6590671910868062
+INFO:root:epoch: 163, the diffusion loss is 0.6596948628301744
+INFO:root:epoch: 164, the diffusion loss is 0.6566577058333856
+INFO:root:epoch: 165, the diffusion loss is 0.6646413059977742
+INFO:root:epoch: 166, the diffusion loss is 0.6553933156001104
+INFO:root:epoch: 167, the diffusion loss is 0.6517942369758308
+INFO:root:epoch: 168, the diffusion loss is 0.6514402604722357
+INFO:root:epoch: 169, the diffusion loss is 0.6556184160244929
+INFO:root:epoch: 170, the diffusion loss is 0.6543513931237258
+INFO:root:epoch: 171, the diffusion loss is 0.657138692094134
+INFO:root:epoch: 172, the diffusion loss is 0.6566438721371936
+INFO:root:epoch: 173, the diffusion loss is 0.6464955055868471
+INFO:root:epoch: 174, the diffusion loss is 0.6570658350919748
+INFO:root:epoch: 175, the diffusion loss is 0.6594146691359483
+INFO:root:epoch: 176, the diffusion loss is 0.6575410791805812
+INFO:root:epoch: 177, the diffusion loss is 0.6515411076607642
+INFO:root:epoch: 178, the diffusion loss is 0.6595094769031971
+INFO:root:epoch: 179, the diffusion loss is 0.6491468672628526
+INFO:root:epoch: 180, the diffusion loss is 0.6554451886709635
+INFO:root:epoch: 181, the diffusion loss is 0.6512205608479389
+INFO:root:epoch: 182, the diffusion loss is 0.655229101707409
+INFO:root:epoch: 183, the diffusion loss is 0.6565382163245956
+INFO:root:epoch: 184, the diffusion loss is 0.6504774441966763
+INFO:root:epoch: 185, the diffusion loss is 0.6602653365630609
+INFO:root:epoch: 186, the diffusion loss is 0.6596445719917099
+INFO:root:epoch: 187, the diffusion loss is 0.6572186095373971
+INFO:root:epoch: 188, the diffusion loss is 0.6552301056973346
+INFO:root:epoch: 189, the diffusion loss is 0.650608479976654
+INFO:root:epoch: 190, the diffusion loss is 0.6581380669172708
+INFO:root:epoch: 191, the diffusion loss is 0.6493262486024336
+INFO:root:epoch: 192, the diffusion loss is 0.6489127115769819
+INFO:root:epoch: 193, the diffusion loss is 0.6558932538156386
+INFO:root:epoch: 194, the diffusion loss is 0.6505896774205294
+INFO:root:epoch: 195, the diffusion loss is 0.6562724430839737
+INFO:root:epoch: 196, the diffusion loss is 0.6481705695003658
+INFO:root:epoch: 197, the diffusion loss is 0.6541093673024859
+INFO:root:epoch: 198, the diffusion loss is 0.6551646899867367
+INFO:root:epoch: 199, the diffusion loss is 0.6519080470134686
+INFO:root:epoch: 200, the diffusion loss is 0.6646047296462121
+INFO:root:the number of generated features is 30432
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:1024
+INFO:root:sampling batch:736
+INFO:root:Test performance on test set.
+INFO:root:fc_norm = False in model config, fc_layer = nn.Linear
+INFO:root:'none' given in ['ensemble_info']['name'], load regular network.
+INFO:root:cnn training loss is 3.1062240746556498; cnn training accuracy is 35.68
+INFO:root:epoch: 0: 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5286, 56.0, 0.0]
+INFO:root:Test Error:   Accuracy: 61.27, Avg loss: 1.5311 
+INFO:root:Many Medium Few shot Top1 Acc: [54.6286, 63.1, 0.0]
+INFO:root:Test Error:   Accuracy: 61.27, Avg loss: 1.5311 
+INFO:root:Label Shift Accracy is: 57.17
+INFO:root:
+
+INFO:root:cnn training loss is 3.044897356811835; cnn training accuracy is 36.11
+INFO:root:epoch: 1: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9286, 53.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 61.36, Avg loss: 1.5179 
+INFO:root:Many Medium Few shot Top1 Acc: [57.0857, 62.1, 0.0]
+INFO:root:Test Error:   Accuracy: 61.36, Avg loss: 1.5179 
+INFO:root:Label Shift Accracy is: 58.59
+INFO:root:
+
+INFO:root:cnn training loss is 3.0180017802180075; cnn training accuracy is 36.45
+INFO:root:epoch: 2: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7429, 51.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 61.45, Avg loss: 1.5132 
+INFO:root:Many Medium Few shot Top1 Acc: [58.8286, 61.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 61.45, Avg loss: 1.5132 
+INFO:root:Label Shift Accracy is: 59.58
+INFO:root:
+
+INFO:root:cnn training loss is 2.999456298594572; cnn training accuracy is 36.70
+INFO:root:epoch: 3: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9571, 49.4, 0.0]
+INFO:root:Test Error:   Accuracy: 60.99, Avg loss: 1.5164 
+INFO:root:Many Medium Few shot Top1 Acc: [59.5857, 60.3, 0.0]
+INFO:root:Test Error:   Accuracy: 60.99, Avg loss: 1.5164 
+INFO:root:Label Shift Accracy is: 59.8
+INFO:root:
+
+INFO:root:cnn training loss is 2.9842095569688447; cnn training accuracy is 36.83
+INFO:root:epoch: 4: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2286, 48.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 60.98, Avg loss: 1.5200 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8571, 59.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 60.98, Avg loss: 1.5200 
+INFO:root:Label Shift Accracy is: 60.44
+INFO:root:
+
+INFO:root:cnn training loss is 2.973331456281701; cnn training accuracy is 36.95
+INFO:root:epoch: 5: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2143, 47.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 60.58, Avg loss: 1.5265 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2, 59.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 60.58, Avg loss: 1.5265 
+INFO:root:Label Shift Accracy is: 60.55
+INFO:root:
+
+INFO:root:cnn training loss is 2.964084746886273; cnn training accuracy is 36.96
+INFO:root:epoch: 6: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0714, 46.6, 0.0]
+INFO:root:Test Error:   Accuracy: 60.23, Avg loss: 1.5333 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7429, 58.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 60.23, Avg loss: 1.5333 
+INFO:root:Label Shift Accracy is: 60.76
+INFO:root:
+
+INFO:root:cnn training loss is 2.9560941676704253; cnn training accuracy is 37.00
+INFO:root:epoch: 7: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2571, 46.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 60.29, Avg loss: 1.5393 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0571, 58.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 60.29, Avg loss: 1.5393 
+INFO:root:Label Shift Accracy is: 60.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.949694521573125; cnn training accuracy is 37.02
+INFO:root:epoch: 8: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2286, 45.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 60.05, Avg loss: 1.5395 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5571, 57.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 60.05, Avg loss: 1.5395 
+INFO:root:Label Shift Accracy is: 61.15
+INFO:root:
+
+INFO:root:cnn training loss is 2.9448135093766816; cnn training accuracy is 37.18
+INFO:root:epoch: 9: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.3714, 44.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.82, Avg loss: 1.5489 
+INFO:root:Many Medium Few shot Top1 Acc: [62.7143, 57.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.82, Avg loss: 1.5489 
+INFO:root:Label Shift Accracy is: 61.08
+INFO:root:
+
+INFO:root:cnn training loss is 2.939707561415069; cnn training accuracy is 37.12
+INFO:root:epoch: 10: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.5, 43.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.66, Avg loss: 1.5522 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2714, 56.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.66, Avg loss: 1.5522 
+INFO:root:Label Shift Accracy is: 61.31
+INFO:root:
+
+INFO:root:cnn training loss is 2.935254364597554; cnn training accuracy is 37.11
+INFO:root:epoch: 11: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.3714, 44.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.69, Avg loss: 1.5519 
+INFO:root:Many Medium Few shot Top1 Acc: [62.7857, 57.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.69, Avg loss: 1.5519 
+INFO:root:Label Shift Accracy is: 61.05
+INFO:root:
+
+INFO:root:cnn training loss is 2.9315622728698107; cnn training accuracy is 37.12
+INFO:root:epoch: 12: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.3571, 44.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.65, Avg loss: 1.5565 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5571, 56.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.65, Avg loss: 1.5565 
+INFO:root:Label Shift Accracy is: 61.48
+INFO:root:
+
+INFO:root:cnn training loss is 2.9271618736033536; cnn training accuracy is 37.18
+INFO:root:epoch: 13: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.5429, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.58, Avg loss: 1.5591 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4143, 56.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.58, Avg loss: 1.5591 
+INFO:root:Label Shift Accracy is: 61.33
+INFO:root:
+
+INFO:root:cnn training loss is 2.924064334557981; cnn training accuracy is 37.21
+INFO:root:epoch: 14: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.4286, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.33, Avg loss: 1.5648 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6286, 55.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.33, Avg loss: 1.5648 
+INFO:root:Label Shift Accracy is: 61.26
+INFO:root:
+
+INFO:root:cnn training loss is 2.921283936013981; cnn training accuracy is 37.16
+INFO:root:epoch: 15: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.42, Avg loss: 1.5616 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2857, 56.4, 0.0]
+INFO:root:Test Error:   Accuracy: 59.42, Avg loss: 1.5616 
+INFO:root:Label Shift Accracy is: 61.22
+INFO:root:
+
+INFO:root:cnn training loss is 2.917260997149409; cnn training accuracy is 37.29
+INFO:root:epoch: 16: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.6, 43.4, 0.0]
+INFO:root:Test Error:   Accuracy: 59.64, Avg loss: 1.5674 
+INFO:root:Many Medium Few shot Top1 Acc: [63.7286, 56.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.64, Avg loss: 1.5674 
+INFO:root:Label Shift Accracy is: 61.41
+INFO:root:
+
+INFO:root:cnn training loss is 2.915021448719258; cnn training accuracy is 37.33
+INFO:root:epoch: 17: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.4857, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.52, Avg loss: 1.5693 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4429, 56.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.52, Avg loss: 1.5693 
+INFO:root:Label Shift Accracy is: 61.29
+INFO:root:
+
+INFO:root:cnn training loss is 2.9121596667231344; cnn training accuracy is 37.34
+INFO:root:epoch: 18: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.3143, 43.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.43, Avg loss: 1.5706 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4714, 55.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.43, Avg loss: 1.5706 
+INFO:root:Label Shift Accracy is: 61.21
+INFO:root:
+
+INFO:root:cnn training loss is 2.909585359145184; cnn training accuracy is 37.33
+INFO:root:epoch: 19: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.4143, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.49, Avg loss: 1.5700 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3857, 55.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.49, Avg loss: 1.5700 
+INFO:root:Label Shift Accracy is: 61.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.9074346678597585; cnn training accuracy is 37.40
+INFO:root:epoch: 20: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.4, 42.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.33, Avg loss: 1.5756 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6571, 56.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.33, Avg loss: 1.5756 
+INFO:root:Label Shift Accracy is: 61.37
+INFO:root:
+
+INFO:root:cnn training loss is 2.904792844032755; cnn training accuracy is 37.48
+INFO:root:epoch: 21: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.3286, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.26, Avg loss: 1.5777 
+INFO:root:Many Medium Few shot Top1 Acc: [63.7, 55.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.26, Avg loss: 1.5777 
+INFO:root:Label Shift Accracy is: 61.32
+INFO:root:
+
+INFO:root:cnn training loss is 2.9024593002942143; cnn training accuracy is 37.39
+INFO:root:epoch: 22: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1571, 43.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.5777 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4714, 56.2, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.5777 
+INFO:root:Label Shift Accracy is: 61.29
+INFO:root:
+
+INFO:root:cnn training loss is 2.9001999436592567; cnn training accuracy is 37.51
+INFO:root:epoch: 23: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.3286, 44.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.66, Avg loss: 1.5806 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2143, 55.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.66, Avg loss: 1.5806 
+INFO:root:Label Shift Accracy is: 60.98
+INFO:root:
+
+INFO:root:cnn training loss is 2.8975272324620462; cnn training accuracy is 37.60
+INFO:root:epoch: 24: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0571, 43.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.25, Avg loss: 1.5777 
+INFO:root:Many Medium Few shot Top1 Acc: [63.7571, 55.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.25, Avg loss: 1.5777 
+INFO:root:Label Shift Accracy is: 61.34
+INFO:root:
+
+INFO:root:cnn training loss is 2.8955293918142515; cnn training accuracy is 37.57
+INFO:root:epoch: 25: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.32, Avg loss: 1.5836 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6143, 55.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.32, Avg loss: 1.5836 
+INFO:root:Label Shift Accracy is: 61.2
+INFO:root:
+
+INFO:root:cnn training loss is 2.893751864530602; cnn training accuracy is 37.73
+INFO:root:epoch: 26: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2857, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.29, Avg loss: 1.5921 
+INFO:root:Many Medium Few shot Top1 Acc: [63.7714, 55.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.29, Avg loss: 1.5921 
+INFO:root:Label Shift Accracy is: 61.16
+INFO:root:
+
+INFO:root:cnn training loss is 2.891991070338658; cnn training accuracy is 37.69
+INFO:root:epoch: 27: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1857, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.5862 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5714, 55.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.5862 
+INFO:root:Label Shift Accracy is: 61.11
+INFO:root:
+
+INFO:root:cnn training loss is 2.890198376713967; cnn training accuracy is 37.66
+INFO:root:epoch: 28: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1286, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.5887 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5714, 55.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.5887 
+INFO:root:Label Shift Accracy is: 61.13
+INFO:root:
+
+INFO:root:cnn training loss is 2.888008794006036; cnn training accuracy is 37.81
+INFO:root:epoch: 29: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2, 43.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.51, Avg loss: 1.5898 
+INFO:root:Many Medium Few shot Top1 Acc: [63.7286, 55.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.51, Avg loss: 1.5898 
+INFO:root:Label Shift Accracy is: 61.33
+INFO:root:
+
+INFO:root:cnn training loss is 2.887038065462696; cnn training accuracy is 37.80
+INFO:root:epoch: 30: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1286, 43.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.45, Avg loss: 1.5885 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5571, 55.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.45, Avg loss: 1.5885 
+INFO:root:Label Shift Accracy is: 61.13
+INFO:root:
+
+INFO:root:cnn training loss is 2.8842801463847256; cnn training accuracy is 37.84
+INFO:root:epoch: 31: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1429, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.30, Avg loss: 1.5963 
+INFO:root:Many Medium Few shot Top1 Acc: [63.8429, 55.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.30, Avg loss: 1.5963 
+INFO:root:Label Shift Accracy is: 61.23
+INFO:root:
+
+INFO:root:cnn training loss is 2.882604049176586; cnn training accuracy is 37.92
+INFO:root:epoch: 32: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1714, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.50, Avg loss: 1.5875 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4286, 55.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.50, Avg loss: 1.5875 
+INFO:root:Label Shift Accracy is: 61.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.8810238351627273; cnn training accuracy is 37.90
+INFO:root:epoch: 33: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1857, 43.4, 0.0]
+INFO:root:Test Error:   Accuracy: 59.35, Avg loss: 1.5973 
+INFO:root:Many Medium Few shot Top1 Acc: [63.8143, 55.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.35, Avg loss: 1.5973 
+INFO:root:Label Shift Accracy is: 61.2
+INFO:root:
+
+INFO:root:cnn training loss is 2.879559346607753; cnn training accuracy is 37.93
+INFO:root:epoch: 34: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9286, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.20, Avg loss: 1.5987 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5286, 55.2, 0.0]
+INFO:root:Test Error:   Accuracy: 59.20, Avg loss: 1.5987 
+INFO:root:Label Shift Accracy is: 61.03
+INFO:root:
+
+INFO:root:cnn training loss is 2.8776022366115024; cnn training accuracy is 37.99
+INFO:root:epoch: 35: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2143, 42.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.17, Avg loss: 1.6006 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6571, 55.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.17, Avg loss: 1.6006 
+INFO:root:Label Shift Accracy is: 61.1
+INFO:root:
+
+INFO:root:cnn training loss is 2.875881681636888; cnn training accuracy is 37.98
+INFO:root:epoch: 36: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2143, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.43, Avg loss: 1.6019 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5143, 54.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.43, Avg loss: 1.6019 
+INFO:root:Label Shift Accracy is: 60.93
+INFO:root:
+
+INFO:root:cnn training loss is 2.8743259517513975; cnn training accuracy is 38.12
+INFO:root:epoch: 37: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0857, 43.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.23, Avg loss: 1.6026 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6, 54.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.23, Avg loss: 1.6026 
+INFO:root:Label Shift Accracy is: 60.93
+INFO:root:
+
+INFO:root:cnn training loss is 2.8728869399245904; cnn training accuracy is 38.13
+INFO:root:epoch: 38: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.2143, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.53, Avg loss: 1.5987 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5714, 55.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.53, Avg loss: 1.5987 
+INFO:root:Label Shift Accracy is: 61.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.871355154076401; cnn training accuracy is 38.08
+INFO:root:epoch: 39: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1429, 43.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.47, Avg loss: 1.6015 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6571, 55.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.47, Avg loss: 1.6015 
+INFO:root:Label Shift Accracy is: 61.17
+INFO:root:
+
+INFO:root:cnn training loss is 2.8698843644589793; cnn training accuracy is 38.16
+INFO:root:epoch: 40: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0286, 43.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.39, Avg loss: 1.6038 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5857, 55.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.39, Avg loss: 1.6038 
+INFO:root:Label Shift Accracy is: 61.11
+INFO:root:
+
+INFO:root:cnn training loss is 2.868465759316269; cnn training accuracy is 38.22
+INFO:root:epoch: 41: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9571, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.29, Avg loss: 1.6040 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4, 55.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.29, Avg loss: 1.6040 
+INFO:root:Label Shift Accracy is: 61.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.8672725716415717; cnn training accuracy is 38.13
+INFO:root:epoch: 42: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9286, 44.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.35, Avg loss: 1.6074 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5857, 55.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.35, Avg loss: 1.6074 
+INFO:root:Label Shift Accracy is: 61.02
+INFO:root:
+
+INFO:root:cnn training loss is 2.8656584146071453; cnn training accuracy is 38.16
+INFO:root:epoch: 43: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0571, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.36, Avg loss: 1.6071 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5857, 55.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.36, Avg loss: 1.6071 
+INFO:root:Label Shift Accracy is: 61.04
+INFO:root:
+
+INFO:root:cnn training loss is 2.8641132821842117; cnn training accuracy is 38.31
+INFO:root:epoch: 44: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.1714, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.40, Avg loss: 1.6116 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5714, 55.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.40, Avg loss: 1.6116 
+INFO:root:Label Shift Accracy is: 61.07
+INFO:root:
+
+INFO:root:cnn training loss is 2.8629227755021076; cnn training accuracy is 38.31
+INFO:root:epoch: 45: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6170 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5857, 54.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6170 
+INFO:root:Label Shift Accracy is: 60.9
+INFO:root:
+
+INFO:root:cnn training loss is 2.861503605939904; cnn training accuracy is 38.27
+INFO:root:epoch: 46: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6160 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6143, 54.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6160 
+INFO:root:Label Shift Accracy is: 60.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.8607016631535123; cnn training accuracy is 38.28
+INFO:root:epoch: 47: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0143, 44.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.6148 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5, 54.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.6148 
+INFO:root:Label Shift Accracy is: 60.92
+INFO:root:
+
+INFO:root:cnn training loss is 2.8593399232747605; cnn training accuracy is 38.39
+INFO:root:epoch: 48: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0857, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.38, Avg loss: 1.6189 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6429, 54.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.38, Avg loss: 1.6189 
+INFO:root:Label Shift Accracy is: 60.9
+INFO:root:
+
+INFO:root:cnn training loss is 2.857626822530007; cnn training accuracy is 38.43
+INFO:root:epoch: 49: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9286, 44.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.40, Avg loss: 1.6147 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3286, 54.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.40, Avg loss: 1.6147 
+INFO:root:Label Shift Accracy is: 60.81
+INFO:root:
+
+INFO:root:cnn training loss is 2.8563181478150037; cnn training accuracy is 38.44
+INFO:root:epoch: 50: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8857, 44.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.32, Avg loss: 1.6204 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5286, 54.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.32, Avg loss: 1.6204 
+INFO:root:Label Shift Accracy is: 60.93
+INFO:root:
+
+INFO:root:cnn training loss is 2.855241361929446; cnn training accuracy is 38.50
+INFO:root:epoch: 51: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9857, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 59.18, Avg loss: 1.6253 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4857, 54.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.18, Avg loss: 1.6253 
+INFO:root:Label Shift Accracy is: 60.82
+INFO:root:
+
+INFO:root:cnn training loss is 2.854558068878797; cnn training accuracy is 38.44
+INFO:root:epoch: 52: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8, 43.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.17, Avg loss: 1.6254 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2286, 55.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.17, Avg loss: 1.6254 
+INFO:root:Label Shift Accracy is: 60.77
+INFO:root:
+
+INFO:root:cnn training loss is 2.8528579595137615; cnn training accuracy is 38.59
+INFO:root:epoch: 53: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7143, 43.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.13, Avg loss: 1.6210 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2571, 54.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.13, Avg loss: 1.6210 
+INFO:root:Label Shift Accracy is: 60.77
+INFO:root:
+
+INFO:root:cnn training loss is 2.8513580682326336; cnn training accuracy is 38.53
+INFO:root:epoch: 54: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7714, 43.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.18, Avg loss: 1.6274 
+INFO:root:Many Medium Few shot Top1 Acc: [63.5571, 55.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.18, Avg loss: 1.6274 
+INFO:root:Label Shift Accracy is: 61.04
+INFO:root:
+
+INFO:root:cnn training loss is 2.850222076688494; cnn training accuracy is 38.63
+INFO:root:epoch: 55: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0857, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.26, Avg loss: 1.6315 
+INFO:root:Many Medium Few shot Top1 Acc: [63.6, 54.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.26, Avg loss: 1.6315 
+INFO:root:Label Shift Accracy is: 60.85
+INFO:root:
+
+INFO:root:cnn training loss is 2.849414567558133; cnn training accuracy is 38.63
+INFO:root:epoch: 56: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7143, 44.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.31, Avg loss: 1.6260 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2429, 55.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.31, Avg loss: 1.6260 
+INFO:root:Label Shift Accracy is: 60.79
+INFO:root:
+
+INFO:root:cnn training loss is 2.848585707800729; cnn training accuracy is 38.54
+INFO:root:epoch: 57: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8286, 44.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.31, Avg loss: 1.6301 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3286, 55.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.31, Avg loss: 1.6301 
+INFO:root:Label Shift Accracy is: 60.83
+INFO:root:
+
+INFO:root:cnn training loss is 2.847247381599582; cnn training accuracy is 38.62
+INFO:root:epoch: 58: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0, 43.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.34, Avg loss: 1.6329 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3571, 54.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.34, Avg loss: 1.6329 
+INFO:root:Label Shift Accracy is: 60.74
+INFO:root:
+
+INFO:root:cnn training loss is 2.8463461301764665; cnn training accuracy is 38.73
+INFO:root:epoch: 59: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8429, 44.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.33, Avg loss: 1.6295 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2, 55.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.33, Avg loss: 1.6295 
+INFO:root:Label Shift Accracy is: 60.92
+INFO:root:
+
+INFO:root:cnn training loss is 2.8453108388550428; cnn training accuracy is 38.69
+INFO:root:epoch: 60: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9286, 43.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.25, Avg loss: 1.6340 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3571, 54.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.25, Avg loss: 1.6340 
+INFO:root:Label Shift Accracy is: 60.76
+INFO:root:
+
+INFO:root:cnn training loss is 2.844018211170119; cnn training accuracy is 38.67
+INFO:root:epoch: 61: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8143, 44.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.29, Avg loss: 1.6334 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2286, 54.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.29, Avg loss: 1.6334 
+INFO:root:Label Shift Accracy is: 60.64
+INFO:root:
+
+INFO:root:cnn training loss is 2.842460885339854; cnn training accuracy is 38.74
+INFO:root:epoch: 62: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9571, 44.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.6353 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3, 54.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.41, Avg loss: 1.6353 
+INFO:root:Label Shift Accracy is: 60.76
+INFO:root:
+
+INFO:root:cnn training loss is 2.841509838493503; cnn training accuracy is 38.73
+INFO:root:epoch: 63: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7429, 43.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.18, Avg loss: 1.6373 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3, 54.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.18, Avg loss: 1.6373 
+INFO:root:Label Shift Accracy is: 60.73
+INFO:root:
+
+INFO:root:cnn training loss is 2.840602344396163; cnn training accuracy is 38.78
+INFO:root:epoch: 64: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9429, 43.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.30, Avg loss: 1.6376 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2429, 54.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.30, Avg loss: 1.6376 
+INFO:root:Label Shift Accracy is: 60.66
+INFO:root:
+
+INFO:root:cnn training loss is 2.8397818146919716; cnn training accuracy is 38.75
+INFO:root:epoch: 65: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9571, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.09, Avg loss: 1.6388 
+INFO:root:Many Medium Few shot Top1 Acc: [63.4571, 54.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.09, Avg loss: 1.6388 
+INFO:root:Label Shift Accracy is: 60.72
+INFO:root:
+
+INFO:root:cnn training loss is 2.838566828747185; cnn training accuracy is 38.84
+INFO:root:epoch: 66: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9714, 43.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.28, Avg loss: 1.6382 
+INFO:root:Many Medium Few shot Top1 Acc: [63.3429, 54.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.28, Avg loss: 1.6382 
+INFO:root:Label Shift Accracy is: 60.78
+INFO:root:
+
+INFO:root:cnn training loss is 2.837119462538739; cnn training accuracy is 38.82
+INFO:root:epoch: 67: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9857, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.37, Avg loss: 1.6399 
+INFO:root:Many Medium Few shot Top1 Acc: [63.1714, 54.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.37, Avg loss: 1.6399 
+INFO:root:Label Shift Accracy is: 60.6
+INFO:root:
+
+INFO:root:cnn training loss is 2.8366476808275496; cnn training accuracy is 38.93
+INFO:root:epoch: 68: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8571, 44.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.31, Avg loss: 1.6412 
+INFO:root:Many Medium Few shot Top1 Acc: [62.9857, 54.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.31, Avg loss: 1.6412 
+INFO:root:Label Shift Accracy is: 60.55
+INFO:root:
+
+INFO:root:cnn training loss is 2.835415334117656; cnn training accuracy is 38.89
+INFO:root:epoch: 69: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0, 43.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.36, Avg loss: 1.6398 
+INFO:root:Many Medium Few shot Top1 Acc: [63.1286, 54.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.36, Avg loss: 1.6398 
+INFO:root:Label Shift Accracy is: 60.53
+INFO:root:
+
+INFO:root:cnn training loss is 2.834830512805861; cnn training accuracy is 38.92
+INFO:root:epoch: 70: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0714, 43.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.32, Avg loss: 1.6484 
+INFO:root:Many Medium Few shot Top1 Acc: [63.1143, 54.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.32, Avg loss: 1.6484 
+INFO:root:Label Shift Accracy is: 60.46
+INFO:root:
+
+INFO:root:cnn training loss is 2.8338827211029676; cnn training accuracy is 38.94
+INFO:root:epoch: 71: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8714, 43.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.28, Avg loss: 1.6438 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2714, 55.0, 0.0]
+INFO:root:Test Error:   Accuracy: 59.28, Avg loss: 1.6438 
+INFO:root:Label Shift Accracy is: 60.79
+INFO:root:
+
+INFO:root:cnn training loss is 2.8328841657054666; cnn training accuracy is 38.97
+INFO:root:epoch: 72: 
+INFO:root:Many Medium Few shot Top1 Acc: [66.0, 43.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.36, Avg loss: 1.6449 
+INFO:root:Many Medium Few shot Top1 Acc: [63.1714, 54.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.36, Avg loss: 1.6449 
+INFO:root:Label Shift Accracy is: 60.57
+INFO:root:
+
+INFO:root:cnn training loss is 2.8319500319811763; cnn training accuracy is 38.86
+INFO:root:epoch: 73: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8429, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.21, Avg loss: 1.6463 
+INFO:root:Many Medium Few shot Top1 Acc: [63.0143, 54.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.21, Avg loss: 1.6463 
+INFO:root:Label Shift Accracy is: 60.5
+INFO:root:
+
+INFO:root:cnn training loss is 2.8302865709577287; cnn training accuracy is 38.94
+INFO:root:epoch: 74: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.9, 44.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.37, Avg loss: 1.6448 
+INFO:root:Many Medium Few shot Top1 Acc: [62.9857, 55.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.37, Avg loss: 1.6448 
+INFO:root:Label Shift Accracy is: 60.67
+INFO:root:
+
+INFO:root:cnn training loss is 2.8300743930193843; cnn training accuracy is 39.02
+INFO:root:epoch: 75: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8429, 43.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.22, Avg loss: 1.6528 
+INFO:root:Many Medium Few shot Top1 Acc: [62.9714, 54.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.22, Avg loss: 1.6528 
+INFO:root:Label Shift Accracy is: 60.41
+INFO:root:
+
+INFO:root:cnn training loss is 2.829293221843486; cnn training accuracy is 39.01
+INFO:root:epoch: 76: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8286, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.99, Avg loss: 1.6543 
+INFO:root:Many Medium Few shot Top1 Acc: [63.1571, 54.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.99, Avg loss: 1.6543 
+INFO:root:Label Shift Accracy is: 60.45
+INFO:root:
+
+INFO:root:cnn training loss is 2.8275770946424834; cnn training accuracy is 38.97
+INFO:root:epoch: 77: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8143, 43.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.14, Avg loss: 1.6519 
+INFO:root:Many Medium Few shot Top1 Acc: [62.9714, 54.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.14, Avg loss: 1.6519 
+INFO:root:Label Shift Accracy is: 60.47
+INFO:root:
+
+INFO:root:cnn training loss is 2.827634042623092; cnn training accuracy is 38.98
+INFO:root:epoch: 78: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8857, 43.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.21, Avg loss: 1.6583 
+INFO:root:Many Medium Few shot Top1 Acc: [63.2571, 54.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.21, Avg loss: 1.6583 
+INFO:root:Label Shift Accracy is: 60.62
+INFO:root:
+
+INFO:root:cnn training loss is 2.8261004953968283; cnn training accuracy is 38.98
+INFO:root:epoch: 79: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.99, Avg loss: 1.6559 
+INFO:root:Many Medium Few shot Top1 Acc: [62.8714, 54.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.99, Avg loss: 1.6559 
+INFO:root:Label Shift Accracy is: 60.33
+INFO:root:
+
+INFO:root:cnn training loss is 2.825598283689849; cnn training accuracy is 39.11
+INFO:root:epoch: 80: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8143, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.25, Avg loss: 1.6543 
+INFO:root:Many Medium Few shot Top1 Acc: [63.0, 54.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.25, Avg loss: 1.6543 
+INFO:root:Label Shift Accracy is: 60.46
+INFO:root:
+
+INFO:root:cnn training loss is 2.8245494025094167; cnn training accuracy is 39.00
+INFO:root:epoch: 81: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.07, Avg loss: 1.6580 
+INFO:root:Many Medium Few shot Top1 Acc: [62.7571, 54.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.07, Avg loss: 1.6580 
+INFO:root:Label Shift Accracy is: 60.31
+INFO:root:
+
+INFO:root:cnn training loss is 2.8233353215820935; cnn training accuracy is 39.12
+INFO:root:epoch: 82: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8429, 43.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.19, Avg loss: 1.6619 
+INFO:root:Many Medium Few shot Top1 Acc: [63.0, 54.2, 0.0]
+INFO:root:Test Error:   Accuracy: 59.19, Avg loss: 1.6619 
+INFO:root:Label Shift Accracy is: 60.36
+INFO:root:
+
+INFO:root:cnn training loss is 2.8228370802743092; cnn training accuracy is 39.13
+INFO:root:epoch: 83: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8, 43.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.20, Avg loss: 1.6627 
+INFO:root:Many Medium Few shot Top1 Acc: [62.9714, 54.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.20, Avg loss: 1.6627 
+INFO:root:Label Shift Accracy is: 60.35
+INFO:root:
+
+INFO:root:cnn training loss is 2.8218899259761887; cnn training accuracy is 39.11
+INFO:root:epoch: 84: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5857, 43.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.88, Avg loss: 1.6642 
+INFO:root:Many Medium Few shot Top1 Acc: [62.9286, 53.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.88, Avg loss: 1.6642 
+INFO:root:Label Shift Accracy is: 60.23
+INFO:root:
+
+INFO:root:cnn training loss is 2.82062789858604; cnn training accuracy is 39.08
+INFO:root:epoch: 85: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7571, 43.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.17, Avg loss: 1.6615 
+INFO:root:Many Medium Few shot Top1 Acc: [62.8, 54.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.17, Avg loss: 1.6615 
+INFO:root:Label Shift Accracy is: 60.21
+INFO:root:
+
+INFO:root:cnn training loss is 2.8204399858202254; cnn training accuracy is 39.14
+INFO:root:epoch: 86: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6429, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.03, Avg loss: 1.6649 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6143, 54.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.03, Avg loss: 1.6649 
+INFO:root:Label Shift Accracy is: 60.24
+INFO:root:
+
+INFO:root:cnn training loss is 2.81944862190558; cnn training accuracy is 39.09
+INFO:root:epoch: 87: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6143, 43.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.03, Avg loss: 1.6579 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6429, 54.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.03, Avg loss: 1.6579 
+INFO:root:Label Shift Accracy is: 60.24
+INFO:root:
+
+INFO:root:cnn training loss is 2.8191003118242537; cnn training accuracy is 39.08
+INFO:root:epoch: 88: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8143, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6640 
+INFO:root:Many Medium Few shot Top1 Acc: [62.7571, 54.2, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6640 
+INFO:root:Label Shift Accracy is: 60.19
+INFO:root:
+
+INFO:root:cnn training loss is 2.8171783126130396; cnn training accuracy is 39.19
+INFO:root:epoch: 89: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6714, 43.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.04, Avg loss: 1.6670 
+INFO:root:Many Medium Few shot Top1 Acc: [62.8429, 54.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.04, Avg loss: 1.6670 
+INFO:root:Label Shift Accracy is: 60.23
+INFO:root:
+
+INFO:root:cnn training loss is 2.816730158669608; cnn training accuracy is 39.19
+INFO:root:epoch: 90: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8714, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 59.07, Avg loss: 1.6691 
+INFO:root:Many Medium Few shot Top1 Acc: [63.0429, 53.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.07, Avg loss: 1.6691 
+INFO:root:Label Shift Accracy is: 60.3
+INFO:root:
+
+INFO:root:cnn training loss is 2.816172697106186; cnn training accuracy is 39.20
+INFO:root:epoch: 91: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7143, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.05, Avg loss: 1.6666 
+INFO:root:Many Medium Few shot Top1 Acc: [62.8286, 54.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.05, Avg loss: 1.6666 
+INFO:root:Label Shift Accracy is: 60.29
+INFO:root:
+
+INFO:root:cnn training loss is 2.8153910588245004; cnn training accuracy is 39.21
+INFO:root:epoch: 92: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7857, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.10, Avg loss: 1.6734 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6143, 54.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.10, Avg loss: 1.6734 
+INFO:root:Label Shift Accracy is: 60.18
+INFO:root:
+
+INFO:root:cnn training loss is 2.8141235234786053; cnn training accuracy is 39.15
+INFO:root:epoch: 93: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7429, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.02, Avg loss: 1.6736 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6857, 53.6, 0.0]
+INFO:root:Test Error:   Accuracy: 59.02, Avg loss: 1.6736 
+INFO:root:Label Shift Accracy is: 59.96
+INFO:root:
+
+INFO:root:cnn training loss is 2.813873271552884; cnn training accuracy is 39.15
+INFO:root:epoch: 94: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7143, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.05, Avg loss: 1.6721 
+INFO:root:Many Medium Few shot Top1 Acc: [62.8857, 54.3, 0.0]
+INFO:root:Test Error:   Accuracy: 59.05, Avg loss: 1.6721 
+INFO:root:Label Shift Accracy is: 60.31
+INFO:root:
+
+INFO:root:cnn training loss is 2.813421298046501; cnn training accuracy is 39.22
+INFO:root:epoch: 95: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.11, Avg loss: 1.6700 
+INFO:root:Many Medium Few shot Top1 Acc: [62.8714, 54.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.11, Avg loss: 1.6700 
+INFO:root:Label Shift Accracy is: 60.44
+INFO:root:
+
+INFO:root:cnn training loss is 2.8127520181694807; cnn training accuracy is 39.22
+INFO:root:epoch: 96: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.04, Avg loss: 1.6764 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6857, 54.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.04, Avg loss: 1.6764 
+INFO:root:Label Shift Accracy is: 60.1
+INFO:root:
+
+INFO:root:cnn training loss is 2.8116196612922515; cnn training accuracy is 39.26
+INFO:root:epoch: 97: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8143, 44.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.28, Avg loss: 1.6716 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5429, 54.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.28, Avg loss: 1.6716 
+INFO:root:Label Shift Accracy is: 60.12
+INFO:root:
+
+INFO:root:cnn training loss is 2.8104221236949063; cnn training accuracy is 39.27
+INFO:root:epoch: 98: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6286, 43.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.09, Avg loss: 1.6759 
+INFO:root:Many Medium Few shot Top1 Acc: [62.7429, 54.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.09, Avg loss: 1.6759 
+INFO:root:Label Shift Accracy is: 60.15
+INFO:root:
+
+INFO:root:cnn training loss is 2.8104590007237027; cnn training accuracy is 39.29
+INFO:root:epoch: 99: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5286, 43.8, 0.0]
+INFO:root:Test Error:   Accuracy: 59.01, Avg loss: 1.6749 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4571, 54.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.01, Avg loss: 1.6749 
+INFO:root:Label Shift Accracy is: 60.07
+INFO:root:
+
+INFO:root:cnn training loss is 2.808494066705509; cnn training accuracy is 39.18
+INFO:root:epoch: 100: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6429, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.94, Avg loss: 1.6752 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6714, 53.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.94, Avg loss: 1.6752 
+INFO:root:Label Shift Accracy is: 59.99
+INFO:root:
+
+INFO:root:cnn training loss is 2.80814545008601; cnn training accuracy is 39.27
+INFO:root:epoch: 101: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5143, 43.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.96, Avg loss: 1.6731 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5857, 54.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.96, Avg loss: 1.6731 
+INFO:root:Label Shift Accracy is: 60.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.8079361380363; cnn training accuracy is 39.29
+INFO:root:epoch: 102: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5857, 43.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.10, Avg loss: 1.6812 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6, 54.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.10, Avg loss: 1.6812 
+INFO:root:Label Shift Accracy is: 60.04
+INFO:root:
+
+INFO:root:cnn training loss is 2.8069948955458037; cnn training accuracy is 39.33
+INFO:root:epoch: 103: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4286, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.6838 
+INFO:root:Many Medium Few shot Top1 Acc: [62.7, 54.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.6838 
+INFO:root:Label Shift Accracy is: 60.1
+INFO:root:
+
+INFO:root:cnn training loss is 2.8054612850656313; cnn training accuracy is 39.34
+INFO:root:epoch: 104: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5286, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.95, Avg loss: 1.6813 
+INFO:root:Many Medium Few shot Top1 Acc: [62.2857, 54.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.95, Avg loss: 1.6813 
+INFO:root:Label Shift Accracy is: 59.87
+INFO:root:
+
+INFO:root:cnn training loss is 2.805729763848441; cnn training accuracy is 39.30
+INFO:root:epoch: 105: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6429, 43.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.06, Avg loss: 1.6852 
+INFO:root:Many Medium Few shot Top1 Acc: [62.8, 54.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.06, Avg loss: 1.6852 
+INFO:root:Label Shift Accracy is: 60.18
+INFO:root:
+
+INFO:root:cnn training loss is 2.8047532743337205; cnn training accuracy is 39.37
+INFO:root:epoch: 106: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5143, 43.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.03, Avg loss: 1.6825 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3571, 54.5, 0.0]
+INFO:root:Test Error:   Accuracy: 59.03, Avg loss: 1.6825 
+INFO:root:Label Shift Accracy is: 60.0
+INFO:root:
+
+INFO:root:cnn training loss is 2.804186130056576; cnn training accuracy is 39.35
+INFO:root:epoch: 107: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5714, 43.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.05, Avg loss: 1.6803 
+INFO:root:Many Medium Few shot Top1 Acc: [62.7857, 53.9, 0.0]
+INFO:root:Test Error:   Accuracy: 59.05, Avg loss: 1.6803 
+INFO:root:Label Shift Accracy is: 60.12
+INFO:root:
+
+INFO:root:cnn training loss is 2.8033694491094474; cnn training accuracy is 39.31
+INFO:root:epoch: 108: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3571, 43.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.77, Avg loss: 1.6897 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3429, 54.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.77, Avg loss: 1.6897 
+INFO:root:Label Shift Accracy is: 59.97
+INFO:root:
+
+INFO:root:cnn training loss is 2.8030664434238357; cnn training accuracy is 39.31
+INFO:root:epoch: 109: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.8714, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.11, Avg loss: 1.6856 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6143, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 59.11, Avg loss: 1.6856 
+INFO:root:Label Shift Accracy is: 59.94
+INFO:root:
+
+INFO:root:cnn training loss is 2.8022310539167754; cnn training accuracy is 39.35
+INFO:root:epoch: 110: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.7, 43.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6790 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4, 54.2, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6790 
+INFO:root:Label Shift Accracy is: 59.94
+INFO:root:
+
+INFO:root:cnn training loss is 2.801598398052916; cnn training accuracy is 39.40
+INFO:root:epoch: 111: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.96, Avg loss: 1.6867 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3857, 54.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.96, Avg loss: 1.6867 
+INFO:root:Label Shift Accracy is: 59.92
+INFO:root:
+
+INFO:root:cnn training loss is 2.801201027266833; cnn training accuracy is 39.36
+INFO:root:epoch: 112: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4286, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.6910 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6857, 53.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.6910 
+INFO:root:Label Shift Accracy is: 60.05
+INFO:root:
+
+INFO:root:cnn training loss is 2.800283986694959; cnn training accuracy is 39.41
+INFO:root:epoch: 113: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5286, 43.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.00, Avg loss: 1.6875 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5714, 54.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.00, Avg loss: 1.6875 
+INFO:root:Label Shift Accracy is: 60.13
+INFO:root:
+
+INFO:root:cnn training loss is 2.7991799578374748; cnn training accuracy is 39.39
+INFO:root:epoch: 114: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4286, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.98, Avg loss: 1.6891 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4857, 54.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.98, Avg loss: 1.6891 
+INFO:root:Label Shift Accracy is: 59.99
+INFO:root:
+
+INFO:root:cnn training loss is 2.7986765248434886; cnn training accuracy is 39.42
+INFO:root:epoch: 115: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4429, 43.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.90, Avg loss: 1.6912 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4857, 53.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.90, Avg loss: 1.6912 
+INFO:root:Label Shift Accracy is: 59.93
+INFO:root:
+
+INFO:root:cnn training loss is 2.7979055910694357; cnn training accuracy is 39.44
+INFO:root:epoch: 116: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1286, 43.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.68, Avg loss: 1.6945 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3, 54.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.68, Avg loss: 1.6945 
+INFO:root:Label Shift Accracy is: 59.85
+INFO:root:
+
+INFO:root:cnn training loss is 2.7978190840507042; cnn training accuracy is 39.40
+INFO:root:epoch: 117: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4571, 43.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.83, Avg loss: 1.6919 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5, 54.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.83, Avg loss: 1.6919 
+INFO:root:Label Shift Accracy is: 60.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.797141440060674; cnn training accuracy is 39.37
+INFO:root:epoch: 118: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5571, 44.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6887 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5286, 54.1, 0.0]
+INFO:root:Test Error:   Accuracy: 59.12, Avg loss: 1.6887 
+INFO:root:Label Shift Accracy is: 60.0
+INFO:root:
+
+INFO:root:cnn training loss is 2.7960353092271455; cnn training accuracy is 39.42
+INFO:root:epoch: 119: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4571, 43.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.85, Avg loss: 1.6933 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6714, 54.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.85, Avg loss: 1.6933 
+INFO:root:Label Shift Accracy is: 60.08
+INFO:root:
+
+INFO:root:cnn training loss is 2.7957038246855443; cnn training accuracy is 39.49
+INFO:root:epoch: 120: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4143, 43.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.80, Avg loss: 1.6953 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6143, 54.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.80, Avg loss: 1.6953 
+INFO:root:Label Shift Accracy is: 60.04
+INFO:root:
+
+INFO:root:cnn training loss is 2.7951269490378245; cnn training accuracy is 39.48
+INFO:root:epoch: 121: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2429, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.79, Avg loss: 1.6969 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4286, 54.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.79, Avg loss: 1.6969 
+INFO:root:Label Shift Accracy is: 60.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.794384795792249; cnn training accuracy is 39.42
+INFO:root:epoch: 122: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4857, 43.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.88, Avg loss: 1.6999 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5143, 54.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.88, Avg loss: 1.6999 
+INFO:root:Label Shift Accracy is: 60.06
+INFO:root:
+
+INFO:root:cnn training loss is 2.793629213255279; cnn training accuracy is 39.48
+INFO:root:epoch: 123: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5857, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.82, Avg loss: 1.6992 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6286, 53.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.82, Avg loss: 1.6992 
+INFO:root:Label Shift Accracy is: 59.88
+INFO:root:
+
+INFO:root:cnn training loss is 2.7930605995411777; cnn training accuracy is 39.36
+INFO:root:epoch: 124: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2571, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.86, Avg loss: 1.6947 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4143, 54.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.86, Avg loss: 1.6947 
+INFO:root:Label Shift Accracy is: 59.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.793055213227564; cnn training accuracy is 39.49
+INFO:root:epoch: 125: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.5, 43.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.88, Avg loss: 1.7003 
+INFO:root:Many Medium Few shot Top1 Acc: [62.2714, 54.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.88, Avg loss: 1.7003 
+INFO:root:Label Shift Accracy is: 59.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.791716361532406; cnn training accuracy is 39.44
+INFO:root:epoch: 126: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2429, 43.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.83, Avg loss: 1.6967 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1, 54.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.83, Avg loss: 1.6967 
+INFO:root:Label Shift Accracy is: 59.89
+INFO:root:
+
+INFO:root:cnn training loss is 2.7911368730116863; cnn training accuracy is 39.45
+INFO:root:epoch: 127: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1571, 43.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7050 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4143, 53.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7050 
+INFO:root:Label Shift Accracy is: 59.84
+INFO:root:
+
+INFO:root:cnn training loss is 2.790917931770792; cnn training accuracy is 39.43
+INFO:root:epoch: 128: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4571, 42.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.68, Avg loss: 1.7056 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3143, 53.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.68, Avg loss: 1.7056 
+INFO:root:Label Shift Accracy is: 59.74
+INFO:root:
+
+INFO:root:cnn training loss is 2.7897135043630796; cnn training accuracy is 39.51
+INFO:root:epoch: 129: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4857, 43.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.93, Avg loss: 1.7054 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3714, 54.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.93, Avg loss: 1.7054 
+INFO:root:Label Shift Accracy is: 59.89
+INFO:root:
+
+INFO:root:cnn training loss is 2.7895495210375105; cnn training accuracy is 39.43
+INFO:root:epoch: 130: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.6286, 43.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.00, Avg loss: 1.7002 
+INFO:root:Many Medium Few shot Top1 Acc: [62.5, 53.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.00, Avg loss: 1.7002 
+INFO:root:Label Shift Accracy is: 59.94
+INFO:root:
+
+INFO:root:cnn training loss is 2.7888892962008107; cnn training accuracy is 39.51
+INFO:root:epoch: 131: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3429, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.70, Avg loss: 1.7097 
+INFO:root:Many Medium Few shot Top1 Acc: [62.2, 53.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.70, Avg loss: 1.7097 
+INFO:root:Label Shift Accracy is: 59.67
+INFO:root:
+
+INFO:root:cnn training loss is 2.788413495433574; cnn training accuracy is 39.53
+INFO:root:epoch: 132: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2857, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7027 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3857, 54.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7027 
+INFO:root:Label Shift Accracy is: 59.97
+INFO:root:
+
+INFO:root:cnn training loss is 2.7877701058679696; cnn training accuracy is 39.45
+INFO:root:epoch: 133: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1286, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.57, Avg loss: 1.7072 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0714, 53.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.57, Avg loss: 1.7072 
+INFO:root:Label Shift Accracy is: 59.62
+INFO:root:
+
+INFO:root:cnn training loss is 2.7869372805770563; cnn training accuracy is 39.46
+INFO:root:epoch: 134: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2714, 44.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.93, Avg loss: 1.7000 
+INFO:root:Many Medium Few shot Top1 Acc: [62.2429, 54.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.93, Avg loss: 1.7000 
+INFO:root:Label Shift Accracy is: 59.89
+INFO:root:
+
+INFO:root:cnn training loss is 2.7865117472045275; cnn training accuracy is 39.52
+INFO:root:epoch: 135: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2429, 43.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.81, Avg loss: 1.7045 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0714, 54.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.81, Avg loss: 1.7045 
+INFO:root:Label Shift Accracy is: 59.78
+INFO:root:
+
+INFO:root:cnn training loss is 2.786097443833643; cnn training accuracy is 39.55
+INFO:root:epoch: 136: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2286, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.66, Avg loss: 1.7103 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3429, 54.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.66, Avg loss: 1.7103 
+INFO:root:Label Shift Accracy is: 59.87
+INFO:root:
+
+INFO:root:cnn training loss is 2.7853069694674746; cnn training accuracy is 39.48
+INFO:root:epoch: 137: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2571, 43.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7117 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1143, 54.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7117 
+INFO:root:Label Shift Accracy is: 59.73
+INFO:root:
+
+INFO:root:cnn training loss is 2.7854297988268795; cnn training accuracy is 39.52
+INFO:root:epoch: 138: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4714, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.79, Avg loss: 1.7122 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3286, 53.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.79, Avg loss: 1.7122 
+INFO:root:Label Shift Accracy is: 59.81
+INFO:root:
+
+INFO:root:cnn training loss is 2.784015636054837; cnn training accuracy is 39.50
+INFO:root:epoch: 139: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3429, 42.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7206 
+INFO:root:Many Medium Few shot Top1 Acc: [62.6714, 53.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7206 
+INFO:root:Label Shift Accracy is: 59.86
+INFO:root:
+
+INFO:root:cnn training loss is 2.783228047040044; cnn training accuracy is 39.54
+INFO:root:epoch: 140: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4714, 44.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 59.04, Avg loss: 1.7092 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1429, 53.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 59.04, Avg loss: 1.7092 
+INFO:root:Label Shift Accracy is: 59.66
+INFO:root:
+
+INFO:root:cnn training loss is 2.7824110741517982; cnn training accuracy is 39.54
+INFO:root:epoch: 141: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1857, 43.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7136 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1, 53.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7136 
+INFO:root:Label Shift Accracy is: 59.61
+INFO:root:
+
+INFO:root:cnn training loss is 2.7826204202613054; cnn training accuracy is 39.56
+INFO:root:epoch: 142: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3571, 43.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.76, Avg loss: 1.7130 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4, 53.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.76, Avg loss: 1.7130 
+INFO:root:Label Shift Accracy is: 59.71
+INFO:root:
+
+INFO:root:cnn training loss is 2.782229116984776; cnn training accuracy is 39.56
+INFO:root:epoch: 143: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2286, 43.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7144 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4571, 53.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7144 
+INFO:root:Label Shift Accracy is: 59.88
+INFO:root:
+
+INFO:root:cnn training loss is 2.7814579545235145; cnn training accuracy is 39.53
+INFO:root:epoch: 144: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7132 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3, 53.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7132 
+INFO:root:Label Shift Accracy is: 59.74
+INFO:root:
+
+INFO:root:cnn training loss is 2.7802691508312614; cnn training accuracy is 39.58
+INFO:root:epoch: 145: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.4286, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.71, Avg loss: 1.7122 
+INFO:root:Many Medium Few shot Top1 Acc: [62.4571, 53.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.71, Avg loss: 1.7122 
+INFO:root:Label Shift Accracy is: 59.85
+INFO:root:
+
+INFO:root:cnn training loss is 2.78078606663918; cnn training accuracy is 39.60
+INFO:root:epoch: 146: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9714, 43.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.66, Avg loss: 1.7152 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9571, 54.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.66, Avg loss: 1.7152 
+INFO:root:Label Shift Accracy is: 59.64
+INFO:root:
+
+INFO:root:cnn training loss is 2.7798907172923184; cnn training accuracy is 39.52
+INFO:root:epoch: 147: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9714, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.53, Avg loss: 1.7172 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1143, 53.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.53, Avg loss: 1.7172 
+INFO:root:Label Shift Accracy is: 59.66
+INFO:root:
+
+INFO:root:cnn training loss is 2.7796537632844887; cnn training accuracy is 39.55
+INFO:root:epoch: 148: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0143, 43.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.46, Avg loss: 1.7208 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0143, 53.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.46, Avg loss: 1.7208 
+INFO:root:Label Shift Accracy is: 59.49
+INFO:root:
+
+INFO:root:cnn training loss is 2.7791955762979934; cnn training accuracy is 39.49
+INFO:root:epoch: 149: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3, 43.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.73, Avg loss: 1.7202 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1857, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.73, Avg loss: 1.7202 
+INFO:root:Label Shift Accracy is: 59.64
+INFO:root:
+
+INFO:root:cnn training loss is 2.778403783331112; cnn training accuracy is 39.57
+INFO:root:epoch: 150: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2429, 43.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7187 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1857, 53.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7187 
+INFO:root:Label Shift Accracy is: 59.67
+INFO:root:
+
+INFO:root:cnn training loss is 2.777846725619569; cnn training accuracy is 39.53
+INFO:root:epoch: 151: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1286, 43.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.62, Avg loss: 1.7200 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0857, 54.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.62, Avg loss: 1.7200 
+INFO:root:Label Shift Accracy is: 59.66
+INFO:root:
+
+INFO:root:cnn training loss is 2.7771525577623017; cnn training accuracy is 39.50
+INFO:root:epoch: 152: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3143, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.61, Avg loss: 1.7211 
+INFO:root:Many Medium Few shot Top1 Acc: [62.2429, 53.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.61, Avg loss: 1.7211 
+INFO:root:Label Shift Accracy is: 59.6
+INFO:root:
+
+INFO:root:cnn training loss is 2.77686477194027; cnn training accuracy is 39.59
+INFO:root:epoch: 153: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0571, 43.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7231 
+INFO:root:Many Medium Few shot Top1 Acc: [62.2286, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7231 
+INFO:root:Label Shift Accracy is: 59.67
+INFO:root:
+
+INFO:root:cnn training loss is 2.7762303984895045; cnn training accuracy is 39.54
+INFO:root:epoch: 154: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2143, 43.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7229 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8571, 54.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7229 
+INFO:root:Label Shift Accracy is: 59.64
+INFO:root:
+
+INFO:root:cnn training loss is 2.7765486240386963; cnn training accuracy is 39.63
+INFO:root:epoch: 155: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3143, 43.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.7237 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3714, 53.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.7237 
+INFO:root:Label Shift Accracy is: 59.84
+INFO:root:
+
+INFO:root:cnn training loss is 2.7755783090786057; cnn training accuracy is 39.57
+INFO:root:epoch: 156: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9857, 43.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.55, Avg loss: 1.7196 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0286, 54.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.55, Avg loss: 1.7196 
+INFO:root:Label Shift Accracy is: 59.63
+INFO:root:
+
+INFO:root:cnn training loss is 2.7746138280751755; cnn training accuracy is 39.60
+INFO:root:epoch: 157: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.3571, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7229 
+INFO:root:Many Medium Few shot Top1 Acc: [62.2429, 53.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.75, Avg loss: 1.7229 
+INFO:root:Label Shift Accracy is: 59.62
+INFO:root:
+
+INFO:root:cnn training loss is 2.7739967132101255; cnn training accuracy is 39.58
+INFO:root:epoch: 158: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1143, 43.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.62, Avg loss: 1.7268 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8571, 53.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.62, Avg loss: 1.7268 
+INFO:root:Label Shift Accracy is: 59.47
+INFO:root:
+
+INFO:root:cnn training loss is 2.7748363991172944; cnn training accuracy is 39.58
+INFO:root:epoch: 159: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0571, 43.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.58, Avg loss: 1.7233 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0, 54.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.58, Avg loss: 1.7233 
+INFO:root:Label Shift Accracy is: 59.62
+INFO:root:
+
+INFO:root:cnn training loss is 2.773583558140969; cnn training accuracy is 39.57
+INFO:root:epoch: 160: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1143, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7278 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9571, 53.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7278 
+INFO:root:Label Shift Accracy is: 59.55
+INFO:root:
+
+INFO:root:cnn training loss is 2.7726025630016715; cnn training accuracy is 39.58
+INFO:root:epoch: 161: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2857, 43.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.7202 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0714, 54.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.78, Avg loss: 1.7202 
+INFO:root:Label Shift Accracy is: 59.67
+INFO:root:
+
+INFO:root:cnn training loss is 2.772497147929912; cnn training accuracy is 39.53
+INFO:root:epoch: 162: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7, 43.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.42, Avg loss: 1.7277 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6143, 54.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.42, Avg loss: 1.7277 
+INFO:root:Label Shift Accracy is: 59.4
+INFO:root:
+
+INFO:root:cnn training loss is 2.7720709090330162; cnn training accuracy is 39.55
+INFO:root:epoch: 163: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7295 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.63, Avg loss: 1.7295 
+INFO:root:Label Shift Accracy is: 59.44
+INFO:root:
+
+INFO:root:cnn training loss is 2.771744947044217; cnn training accuracy is 39.55
+INFO:root:epoch: 164: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1714, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7267 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1286, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.60, Avg loss: 1.7267 
+INFO:root:Label Shift Accracy is: 59.6
+INFO:root:
+
+INFO:root:cnn training loss is 2.7712254329603545; cnn training accuracy is 39.59
+INFO:root:epoch: 165: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9857, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.38, Avg loss: 1.7411 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1, 53.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.38, Avg loss: 1.7411 
+INFO:root:Label Shift Accracy is: 59.45
+INFO:root:
+
+INFO:root:cnn training loss is 2.7706346852438792; cnn training accuracy is 39.63
+INFO:root:epoch: 166: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2857, 42.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.57, Avg loss: 1.7342 
+INFO:root:Many Medium Few shot Top1 Acc: [62.3286, 53.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.57, Avg loss: 1.7342 
+INFO:root:Label Shift Accracy is: 59.6
+INFO:root:
+
+INFO:root:cnn training loss is 2.770668565010538; cnn training accuracy is 39.64
+INFO:root:epoch: 167: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.62, Avg loss: 1.7321 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.62, Avg loss: 1.7321 
+INFO:root:Label Shift Accracy is: 59.44
+INFO:root:
+
+INFO:root:cnn training loss is 2.7698675904955183; cnn training accuracy is 39.63
+INFO:root:epoch: 168: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9714, 43.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.38, Avg loss: 1.7330 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9143, 53.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.38, Avg loss: 1.7330 
+INFO:root:Label Shift Accracy is: 59.42
+INFO:root:
+
+INFO:root:cnn training loss is 2.7695289679936; cnn training accuracy is 39.58
+INFO:root:epoch: 169: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9857, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.54, Avg loss: 1.7344 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9286, 53.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.54, Avg loss: 1.7344 
+INFO:root:Label Shift Accracy is: 59.5
+INFO:root:
+
+INFO:root:cnn training loss is 2.769119744398156; cnn training accuracy is 39.63
+INFO:root:epoch: 170: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9429, 43.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.55, Avg loss: 1.7325 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8143, 53.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.55, Avg loss: 1.7325 
+INFO:root:Label Shift Accracy is: 59.46
+INFO:root:
+
+INFO:root:cnn training loss is 2.7683533357114207; cnn training accuracy is 39.61
+INFO:root:epoch: 171: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0429, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.44, Avg loss: 1.7373 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1571, 53.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.44, Avg loss: 1.7373 
+INFO:root:Label Shift Accracy is: 59.52
+INFO:root:
+
+INFO:root:cnn training loss is 2.7683236404341094; cnn training accuracy is 39.60
+INFO:root:epoch: 172: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1143, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.56, Avg loss: 1.7352 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0, 53.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.56, Avg loss: 1.7352 
+INFO:root:Label Shift Accracy is: 59.52
+INFO:root:
+
+INFO:root:cnn training loss is 2.7671451617260368; cnn training accuracy is 39.64
+INFO:root:epoch: 173: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.2429, 43.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.68, Avg loss: 1.7376 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0429, 54.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.68, Avg loss: 1.7376 
+INFO:root:Label Shift Accracy is: 59.63
+INFO:root:
+
+INFO:root:cnn training loss is 2.767336976771452; cnn training accuracy is 39.68
+INFO:root:epoch: 174: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0, 43.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7363 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0429, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7363 
+INFO:root:Label Shift Accracy is: 59.54
+INFO:root:
+
+INFO:root:cnn training loss is 2.767247584401345; cnn training accuracy is 39.61
+INFO:root:epoch: 175: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0714, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.36, Avg loss: 1.7425 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0714, 53.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.36, Avg loss: 1.7425 
+INFO:root:Label Shift Accracy is: 59.48
+INFO:root:
+
+INFO:root:cnn training loss is 2.7659990349594428; cnn training accuracy is 39.64
+INFO:root:epoch: 176: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0286, 43.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.45, Avg loss: 1.7390 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0571, 53.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.45, Avg loss: 1.7390 
+INFO:root:Label Shift Accracy is: 59.54
+INFO:root:
+
+INFO:root:cnn training loss is 2.766057102047667; cnn training accuracy is 39.73
+INFO:root:epoch: 177: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7429, 43.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7436 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6571, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7436 
+INFO:root:Label Shift Accracy is: 59.27
+INFO:root:
+
+INFO:root:cnn training loss is 2.7655622131970463; cnn training accuracy is 39.68
+INFO:root:epoch: 178: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.50, Avg loss: 1.7369 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9714, 53.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.50, Avg loss: 1.7369 
+INFO:root:Label Shift Accracy is: 59.41
+INFO:root:
+
+INFO:root:cnn training loss is 2.764986967553898; cnn training accuracy is 39.66
+INFO:root:epoch: 179: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8429, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7438 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9857, 53.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7438 
+INFO:root:Label Shift Accracy is: 59.52
+INFO:root:
+
+INFO:root:cnn training loss is 2.7643298518900967; cnn training accuracy is 39.58
+INFO:root:epoch: 180: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1429, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.56, Avg loss: 1.7433 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9286, 53.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.56, Avg loss: 1.7433 
+INFO:root:Label Shift Accracy is: 59.45
+INFO:root:
+
+INFO:root:cnn training loss is 2.7645778072123623; cnn training accuracy is 39.65
+INFO:root:epoch: 181: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.42, Avg loss: 1.7458 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8571, 53.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.42, Avg loss: 1.7458 
+INFO:root:Label Shift Accracy is: 59.29
+INFO:root:
+
+INFO:root:cnn training loss is 2.763744514815661; cnn training accuracy is 39.64
+INFO:root:epoch: 182: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.48, Avg loss: 1.7383 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0286, 53.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.48, Avg loss: 1.7383 
+INFO:root:Label Shift Accracy is: 59.43
+INFO:root:
+
+INFO:root:cnn training loss is 2.7628230172760633; cnn training accuracy is 39.65
+INFO:root:epoch: 183: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1857, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.41, Avg loss: 1.7455 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9143, 53.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.41, Avg loss: 1.7455 
+INFO:root:Label Shift Accracy is: 59.33
+INFO:root:
+
+INFO:root:cnn training loss is 2.7627820628029958; cnn training accuracy is 39.67
+INFO:root:epoch: 184: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7453 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9286, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7453 
+INFO:root:Label Shift Accracy is: 59.46
+INFO:root:
+
+INFO:root:cnn training loss is 2.762767796613732; cnn training accuracy is 39.59
+INFO:root:epoch: 185: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9143, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7454 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9286, 53.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7454 
+INFO:root:Label Shift Accracy is: 59.37
+INFO:root:
+
+INFO:root:cnn training loss is 2.7620978160780303; cnn training accuracy is 39.62
+INFO:root:epoch: 186: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9571, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.39, Avg loss: 1.7459 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9286, 53.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.39, Avg loss: 1.7459 
+INFO:root:Label Shift Accracy is: 59.3
+INFO:root:
+
+INFO:root:cnn training loss is 2.7617131787903455; cnn training accuracy is 39.71
+INFO:root:epoch: 187: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7429, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.24, Avg loss: 1.7447 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8143, 53.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.24, Avg loss: 1.7447 
+INFO:root:Label Shift Accracy is: 59.31
+INFO:root:
+
+INFO:root:cnn training loss is 2.761385761961645; cnn training accuracy is 39.67
+INFO:root:epoch: 188: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0714, 43.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.45, Avg loss: 1.7473 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0286, 53.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.45, Avg loss: 1.7473 
+INFO:root:Label Shift Accracy is: 59.49
+INFO:root:
+
+INFO:root:cnn training loss is 2.7606848794586805; cnn training accuracy is 39.67
+INFO:root:epoch: 189: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8, 43.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.39, Avg loss: 1.7501 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9143, 53.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.39, Avg loss: 1.7501 
+INFO:root:Label Shift Accracy is: 59.43
+INFO:root:
+
+INFO:root:cnn training loss is 2.760191245954864; cnn training accuracy is 39.67
+INFO:root:epoch: 190: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7429, 43.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7506 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7857, 53.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7506 
+INFO:root:Label Shift Accracy is: 59.41
+INFO:root:
+
+INFO:root:cnn training loss is 2.759764136100302; cnn training accuracy is 39.65
+INFO:root:epoch: 191: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8, 43.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.33, Avg loss: 1.7476 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7714, 53.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.33, Avg loss: 1.7476 
+INFO:root:Label Shift Accracy is: 59.37
+INFO:root:
+
+INFO:root:cnn training loss is 2.7594444849053206; cnn training accuracy is 39.60
+INFO:root:epoch: 192: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8857, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.47, Avg loss: 1.7478 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7286, 53.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.47, Avg loss: 1.7478 
+INFO:root:Label Shift Accracy is: 59.35
+INFO:root:
+
+INFO:root:cnn training loss is 2.7590734472080154; cnn training accuracy is 39.63
+INFO:root:epoch: 193: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8857, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.20, Avg loss: 1.7573 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8143, 53.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.20, Avg loss: 1.7573 
+INFO:root:Label Shift Accracy is: 59.23
+INFO:root:
+
+INFO:root:cnn training loss is 2.7583990680928134; cnn training accuracy is 39.74
+INFO:root:epoch: 194: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9571, 43.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.42, Avg loss: 1.7490 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7714, 53.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.42, Avg loss: 1.7490 
+INFO:root:Label Shift Accracy is: 59.25
+INFO:root:
+
+INFO:root:cnn training loss is 2.758181245959535; cnn training accuracy is 39.72
+INFO:root:epoch: 195: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8714, 43.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.34, Avg loss: 1.7533 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9286, 53.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.34, Avg loss: 1.7533 
+INFO:root:Label Shift Accracy is: 59.32
+INFO:root:
+
+INFO:root:cnn training loss is 2.758044062828531; cnn training accuracy is 39.66
+INFO:root:epoch: 196: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.1286, 42.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7530 
+INFO:root:Many Medium Few shot Top1 Acc: [62.1571, 53.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7530 
+INFO:root:Label Shift Accracy is: 59.51
+INFO:root:
+
+INFO:root:cnn training loss is 2.758040340579286; cnn training accuracy is 39.66
+INFO:root:epoch: 197: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9286, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.44, Avg loss: 1.7556 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8286, 53.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.44, Avg loss: 1.7556 
+INFO:root:Label Shift Accracy is: 59.32
+INFO:root:
+
+INFO:root:cnn training loss is 2.7570117833663006; cnn training accuracy is 39.73
+INFO:root:epoch: 198: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8143, 43.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.31, Avg loss: 1.7542 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9429, 53.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.31, Avg loss: 1.7542 
+INFO:root:Label Shift Accracy is: 59.28
+INFO:root:
+
+INFO:root:cnn training loss is 2.757077616088244; cnn training accuracy is 39.64
+INFO:root:epoch: 199: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7143, 42.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7582 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6143, 53.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7582 
+INFO:root:Label Shift Accracy is: 59.09
+INFO:root:
+
+INFO:root:cnn training loss is 2.756203383815532; cnn training accuracy is 39.74
+INFO:root:epoch: 200: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7429, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.28, Avg loss: 1.7561 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8857, 53.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.28, Avg loss: 1.7561 
+INFO:root:Label Shift Accracy is: 59.43
+INFO:root:
+
+INFO:root:cnn training loss is 2.7564653717741674; cnn training accuracy is 39.72
+INFO:root:epoch: 201: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6857, 43.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.25, Avg loss: 1.7609 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6429, 53.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.25, Avg loss: 1.7609 
+INFO:root:Label Shift Accracy is: 59.29
+INFO:root:
+
+INFO:root:cnn training loss is 2.756074214468197; cnn training accuracy is 39.70
+INFO:root:epoch: 202: 
+INFO:root:Many Medium Few shot Top1 Acc: [65.0429, 43.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7565 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8714, 53.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.43, Avg loss: 1.7565 
+INFO:root:Label Shift Accracy is: 59.34
+INFO:root:
+
+INFO:root:cnn training loss is 2.7557423844629403; cnn training accuracy is 39.71
+INFO:root:epoch: 203: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7571, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.7642 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9429, 52.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.7642 
+INFO:root:Label Shift Accracy is: 59.2
+INFO:root:
+
+INFO:root:cnn training loss is 2.754921295204941; cnn training accuracy is 39.61
+INFO:root:epoch: 204: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9429, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7583 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9571, 53.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7583 
+INFO:root:Label Shift Accracy is: 59.38
+INFO:root:
+
+INFO:root:cnn training loss is 2.754659837606002; cnn training accuracy is 39.73
+INFO:root:epoch: 205: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8857, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.31, Avg loss: 1.7627 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7286, 52.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.31, Avg loss: 1.7627 
+INFO:root:Label Shift Accracy is: 59.06
+INFO:root:
+
+INFO:root:cnn training loss is 2.7549226040742836; cnn training accuracy is 39.65
+INFO:root:epoch: 206: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8714, 42.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7647 
+INFO:root:Many Medium Few shot Top1 Acc: [61.9429, 53.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7647 
+INFO:root:Label Shift Accracy is: 59.27
+INFO:root:
+
+INFO:root:cnn training loss is 2.753958123070853; cnn training accuracy is 39.66
+INFO:root:epoch: 207: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7429, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7607 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6714, 53.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7607 
+INFO:root:Label Shift Accracy is: 59.13
+INFO:root:
+
+INFO:root:cnn training loss is 2.753780506095108; cnn training accuracy is 39.71
+INFO:root:epoch: 208: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.34, Avg loss: 1.7592 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6857, 53.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.34, Avg loss: 1.7592 
+INFO:root:Label Shift Accracy is: 59.24
+INFO:root:
+
+INFO:root:cnn training loss is 2.752983521442024; cnn training accuracy is 39.73
+INFO:root:epoch: 209: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8286, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7646 
+INFO:root:Many Medium Few shot Top1 Acc: [62.0429, 52.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7646 
+INFO:root:Label Shift Accracy is: 59.25
+INFO:root:
+
+INFO:root:cnn training loss is 2.753050356495137; cnn training accuracy is 39.69
+INFO:root:epoch: 210: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9714, 43.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.50, Avg loss: 1.7623 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6143, 53.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.50, Avg loss: 1.7623 
+INFO:root:Label Shift Accracy is: 59.07
+INFO:root:
+
+INFO:root:cnn training loss is 2.752778710151205; cnn training accuracy is 39.75
+INFO:root:epoch: 211: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8857, 43.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.44, Avg loss: 1.7637 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6857, 53.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.44, Avg loss: 1.7637 
+INFO:root:Label Shift Accracy is: 59.2
+INFO:root:
+
+INFO:root:cnn training loss is 2.752951514964201; cnn training accuracy is 39.77
+INFO:root:epoch: 212: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8, 42.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.15, Avg loss: 1.7679 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8429, 52.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.15, Avg loss: 1.7679 
+INFO:root:Label Shift Accracy is: 59.05
+INFO:root:
+
+INFO:root:cnn training loss is 2.7521951928430672; cnn training accuracy is 39.77
+INFO:root:epoch: 213: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8429, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.39, Avg loss: 1.7645 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7, 53.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.39, Avg loss: 1.7645 
+INFO:root:Label Shift Accracy is: 59.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.751353015705031; cnn training accuracy is 39.65
+INFO:root:epoch: 214: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6143, 43.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7658 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8286, 53.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7658 
+INFO:root:Label Shift Accracy is: 59.35
+INFO:root:
+
+INFO:root:cnn training loss is 2.7508565503723768; cnn training accuracy is 39.73
+INFO:root:epoch: 215: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7, 43.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7659 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7143, 53.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.35, Avg loss: 1.7659 
+INFO:root:Label Shift Accracy is: 59.22
+INFO:root:
+
+INFO:root:cnn training loss is 2.751012393406459; cnn training accuracy is 39.71
+INFO:root:epoch: 216: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7286, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.20, Avg loss: 1.7677 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6429, 52.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.20, Avg loss: 1.7677 
+INFO:root:Label Shift Accracy is: 58.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.7505121620333925; cnn training accuracy is 39.73
+INFO:root:epoch: 217: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8571, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.12, Avg loss: 1.7667 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8286, 52.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.12, Avg loss: 1.7667 
+INFO:root:Label Shift Accracy is: 59.16
+INFO:root:
+
+INFO:root:cnn training loss is 2.7502340929848805; cnn training accuracy is 39.71
+INFO:root:epoch: 218: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8714, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.30, Avg loss: 1.7734 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5429, 52.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.30, Avg loss: 1.7734 
+INFO:root:Label Shift Accracy is: 58.96
+INFO:root:
+
+INFO:root:cnn training loss is 2.7496809521499945; cnn training accuracy is 39.72
+INFO:root:epoch: 219: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7286, 43.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.38, Avg loss: 1.7675 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6714, 53.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.38, Avg loss: 1.7675 
+INFO:root:Label Shift Accracy is: 59.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.7497849659043916; cnn training accuracy is 39.73
+INFO:root:epoch: 220: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6857, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7678 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5429, 53.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7678 
+INFO:root:Label Shift Accracy is: 59.03
+INFO:root:
+
+INFO:root:cnn training loss is 2.749957172238097; cnn training accuracy is 39.72
+INFO:root:epoch: 221: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6714, 42.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.14, Avg loss: 1.7731 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5, 52.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.14, Avg loss: 1.7731 
+INFO:root:Label Shift Accracy is: 58.93
+INFO:root:
+
+INFO:root:cnn training loss is 2.7496894914276746; cnn training accuracy is 39.74
+INFO:root:epoch: 222: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8571, 42.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7735 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8143, 52.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7735 
+INFO:root:Label Shift Accracy is: 59.1
+INFO:root:
+
+INFO:root:cnn training loss is 2.748856816973005; cnn training accuracy is 39.73
+INFO:root:epoch: 223: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7571, 42.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7735 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8286, 52.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7735 
+INFO:root:Label Shift Accracy is: 59.08
+INFO:root:
+
+INFO:root:cnn training loss is 2.7480655203060227; cnn training accuracy is 39.67
+INFO:root:epoch: 224: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.15, Avg loss: 1.7698 
+INFO:root:Many Medium Few shot Top1 Acc: [61.4, 53.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.15, Avg loss: 1.7698 
+INFO:root:Label Shift Accracy is: 58.99
+INFO:root:
+
+INFO:root:cnn training loss is 2.748109063323663; cnn training accuracy is 39.70
+INFO:root:epoch: 225: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.7769 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8, 52.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.7769 
+INFO:root:Label Shift Accracy is: 59.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.7475754582152074; cnn training accuracy is 39.66
+INFO:root:epoch: 226: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6857, 43.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.32, Avg loss: 1.7756 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3286, 52.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.32, Avg loss: 1.7756 
+INFO:root:Label Shift Accracy is: 58.79
+INFO:root:
+
+INFO:root:cnn training loss is 2.7473205449629803; cnn training accuracy is 39.72
+INFO:root:epoch: 227: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7769 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8571, 53.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7769 
+INFO:root:Label Shift Accracy is: 59.21
+INFO:root:
+
+INFO:root:cnn training loss is 2.7474452719396476; cnn training accuracy is 39.65
+INFO:root:epoch: 228: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7429, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7717 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6714, 52.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7717 
+INFO:root:Label Shift Accracy is: 59.06
+INFO:root:
+
+INFO:root:cnn training loss is 2.7463776724679128; cnn training accuracy is 39.82
+INFO:root:epoch: 229: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5714, 42.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.06, Avg loss: 1.7755 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6429, 53.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.06, Avg loss: 1.7755 
+INFO:root:Label Shift Accracy is: 59.07
+INFO:root:
+
+INFO:root:cnn training loss is 2.7463703106860726; cnn training accuracy is 39.74
+INFO:root:epoch: 230: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6714, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7753 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3571, 52.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7753 
+INFO:root:Label Shift Accracy is: 58.84
+INFO:root:
+
+INFO:root:cnn training loss is 2.7457344142758116; cnn training accuracy is 39.75
+INFO:root:epoch: 231: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7286, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.36, Avg loss: 1.7728 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5, 53.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.36, Avg loss: 1.7728 
+INFO:root:Label Shift Accracy is: 58.99
+INFO:root:
+
+INFO:root:cnn training loss is 2.7459565084807727; cnn training accuracy is 39.70
+INFO:root:epoch: 232: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6286, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7774 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5, 53.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7774 
+INFO:root:Label Shift Accracy is: 58.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.7444176041350072; cnn training accuracy is 39.77
+INFO:root:epoch: 233: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.05, Avg loss: 1.7779 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5, 53.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.05, Avg loss: 1.7779 
+INFO:root:Label Shift Accracy is: 58.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.7453948867564297; cnn training accuracy is 39.71
+INFO:root:epoch: 234: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8143, 43.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7791 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6429, 52.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.27, Avg loss: 1.7791 
+INFO:root:Label Shift Accracy is: 58.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.7450571400778636; cnn training accuracy is 39.75
+INFO:root:epoch: 235: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8429, 42.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.12, Avg loss: 1.7840 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6, 52.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.12, Avg loss: 1.7840 
+INFO:root:Label Shift Accracy is: 58.89
+INFO:root:
+
+INFO:root:cnn training loss is 2.7447061295412025; cnn training accuracy is 39.76
+INFO:root:epoch: 236: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7857, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7789 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7286, 52.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7789 
+INFO:root:Label Shift Accracy is: 59.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.744390755283589; cnn training accuracy is 39.74
+INFO:root:epoch: 237: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6286, 43.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.17, Avg loss: 1.7819 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3429, 53.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.17, Avg loss: 1.7819 
+INFO:root:Label Shift Accracy is: 58.88
+INFO:root:
+
+INFO:root:cnn training loss is 2.7438924993787492; cnn training accuracy is 39.79
+INFO:root:epoch: 238: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4571, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.93, Avg loss: 1.7829 
+INFO:root:Many Medium Few shot Top1 Acc: [61.4857, 53.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.93, Avg loss: 1.7829 
+INFO:root:Label Shift Accracy is: 59.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.7437483972432664; cnn training accuracy is 39.70
+INFO:root:epoch: 239: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7143, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.13, Avg loss: 1.7824 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6143, 52.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.13, Avg loss: 1.7824 
+INFO:root:Label Shift Accracy is: 58.97
+INFO:root:
+
+INFO:root:cnn training loss is 2.743674030109328; cnn training accuracy is 39.71
+INFO:root:epoch: 240: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4714, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.09, Avg loss: 1.7771 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2714, 53.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.09, Avg loss: 1.7771 
+INFO:root:Label Shift Accracy is: 58.83
+INFO:root:
+
+INFO:root:cnn training loss is 2.7434010311048858; cnn training accuracy is 39.71
+INFO:root:epoch: 241: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6286, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.13, Avg loss: 1.7831 
+INFO:root:Many Medium Few shot Top1 Acc: [61.4714, 52.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.13, Avg loss: 1.7831 
+INFO:root:Label Shift Accracy is: 58.84
+INFO:root:
+
+INFO:root:cnn training loss is 2.742757661002023; cnn training accuracy is 39.78
+INFO:root:epoch: 242: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6571, 43.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.22, Avg loss: 1.7820 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3857, 53.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.22, Avg loss: 1.7820 
+INFO:root:Label Shift Accracy is: 58.96
+INFO:root:
+
+INFO:root:cnn training loss is 2.7426124397589238; cnn training accuracy is 39.74
+INFO:root:epoch: 243: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.19, Avg loss: 1.7896 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3714, 52.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.19, Avg loss: 1.7896 
+INFO:root:Label Shift Accracy is: 58.84
+INFO:root:
+
+INFO:root:cnn training loss is 2.74209696419385; cnn training accuracy is 39.75
+INFO:root:epoch: 244: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7714, 42.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.19, Avg loss: 1.7831 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5429, 53.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.19, Avg loss: 1.7831 
+INFO:root:Label Shift Accracy is: 59.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.7421520340199375; cnn training accuracy is 39.76
+INFO:root:epoch: 245: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.9714, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.40, Avg loss: 1.7804 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5, 52.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.40, Avg loss: 1.7804 
+INFO:root:Label Shift Accracy is: 58.89
+INFO:root:
+
+INFO:root:cnn training loss is 2.742344992501395; cnn training accuracy is 39.76
+INFO:root:epoch: 246: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7143, 43.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.30, Avg loss: 1.7833 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3857, 52.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.30, Avg loss: 1.7833 
+INFO:root:Label Shift Accracy is: 58.82
+INFO:root:
+
+INFO:root:cnn training loss is 2.7416519680801703; cnn training accuracy is 39.64
+INFO:root:epoch: 247: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7571, 42.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.7947 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7714, 52.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.7947 
+INFO:root:Label Shift Accracy is: 59.02
+INFO:root:
+
+INFO:root:cnn training loss is 2.7407508188364456; cnn training accuracy is 39.74
+INFO:root:epoch: 248: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5429, 43.5, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7832 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5, 53.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.23, Avg loss: 1.7832 
+INFO:root:Label Shift Accracy is: 58.98
+INFO:root:
+
+INFO:root:cnn training loss is 2.740671410852549; cnn training accuracy is 39.84
+INFO:root:epoch: 249: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6714, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7927 
+INFO:root:Many Medium Few shot Top1 Acc: [61.5286, 52.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7927 
+INFO:root:Label Shift Accracy is: 58.83
+INFO:root:
+
+INFO:root:cnn training loss is 2.7406732062904204; cnn training accuracy is 39.71
+INFO:root:epoch: 250: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 43.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7889 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1571, 52.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.16, Avg loss: 1.7889 
+INFO:root:Label Shift Accracy is: 58.63
+INFO:root:
+
+INFO:root:cnn training loss is 2.74013081862002; cnn training accuracy is 39.77
+INFO:root:epoch: 251: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8286, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7878 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7, 52.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.7878 
+INFO:root:Label Shift Accracy is: 58.93
+INFO:root:
+
+INFO:root:cnn training loss is 2.7400587529552225; cnn training accuracy is 39.69
+INFO:root:epoch: 252: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4429, 43.0, 0.0]
+INFO:root:Test Error:   Accuracy: 58.01, Avg loss: 1.7873 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3429, 53.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.01, Avg loss: 1.7873 
+INFO:root:Label Shift Accracy is: 58.87
+INFO:root:
+
+INFO:root:cnn training loss is 2.7399299388029137; cnn training accuracy is 39.73
+INFO:root:epoch: 253: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.8571, 42.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.02, Avg loss: 1.7920 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7571, 52.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.02, Avg loss: 1.7920 
+INFO:root:Label Shift Accracy is: 58.91
+INFO:root:
+
+INFO:root:cnn training loss is 2.73953365306465; cnn training accuracy is 39.72
+INFO:root:epoch: 254: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6, 43.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.31, Avg loss: 1.7849 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1429, 53.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.31, Avg loss: 1.7849 
+INFO:root:Label Shift Accracy is: 58.74
+INFO:root:
+
+INFO:root:cnn training loss is 2.739216084382972; cnn training accuracy is 39.76
+INFO:root:epoch: 255: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7, 41.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.7951 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7571, 52.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.7951 
+INFO:root:Label Shift Accracy is: 58.96
+INFO:root:
+
+INFO:root:cnn training loss is 2.7390946709379858; cnn training accuracy is 39.69
+INFO:root:epoch: 256: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5571, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.86, Avg loss: 1.7983 
+INFO:root:Many Medium Few shot Top1 Acc: [61.8571, 52.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.86, Avg loss: 1.7983 
+INFO:root:Label Shift Accracy is: 59.08
+INFO:root:
+
+INFO:root:cnn training loss is 2.7386913980756487; cnn training accuracy is 39.71
+INFO:root:epoch: 257: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5, 43.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.13, Avg loss: 1.7965 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2286, 52.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.13, Avg loss: 1.7965 
+INFO:root:Label Shift Accracy is: 58.72
+INFO:root:
+
+INFO:root:cnn training loss is 2.7384068430686486; cnn training accuracy is 39.74
+INFO:root:epoch: 258: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.7915 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7, 52.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.7915 
+INFO:root:Label Shift Accracy is: 59.03
+INFO:root:
+
+INFO:root:cnn training loss is 2.738414380015159; cnn training accuracy is 39.73
+INFO:root:epoch: 259: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6571, 42.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.03, Avg loss: 1.7938 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1143, 52.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.03, Avg loss: 1.7938 
+INFO:root:Label Shift Accracy is: 58.59
+INFO:root:
+
+INFO:root:cnn training loss is 2.7379197636429145; cnn training accuracy is 39.74
+INFO:root:epoch: 260: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.06, Avg loss: 1.7956 
+INFO:root:Many Medium Few shot Top1 Acc: [61.4, 53.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.06, Avg loss: 1.7956 
+INFO:root:Label Shift Accracy is: 58.9
+INFO:root:
+
+INFO:root:cnn training loss is 2.737489622466418; cnn training accuracy is 39.72
+INFO:root:epoch: 261: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6714, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7958 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1143, 52.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.18, Avg loss: 1.7958 
+INFO:root:Label Shift Accracy is: 58.56
+INFO:root:
+
+INFO:root:cnn training loss is 2.7376800848513234; cnn training accuracy is 39.79
+INFO:root:epoch: 262: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5143, 42.2, 0.0]
+INFO:root:Test Error:   Accuracy: 57.82, Avg loss: 1.7982 
+INFO:root:Many Medium Few shot Top1 Acc: [61.7286, 52.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.82, Avg loss: 1.7982 
+INFO:root:Label Shift Accracy is: 58.9
+INFO:root:
+
+INFO:root:cnn training loss is 2.7373417396934663; cnn training accuracy is 39.74
+INFO:root:epoch: 263: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 42.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.04, Avg loss: 1.7928 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3429, 52.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.04, Avg loss: 1.7928 
+INFO:root:Label Shift Accracy is: 58.75
+INFO:root:
+
+INFO:root:cnn training loss is 2.736709317382501; cnn training accuracy is 39.84
+INFO:root:epoch: 264: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.08, Avg loss: 1.8014 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2429, 52.6, 0.0]
+INFO:root:Test Error:   Accuracy: 58.08, Avg loss: 1.8014 
+INFO:root:Label Shift Accracy is: 58.65
+INFO:root:
+
+INFO:root:cnn training loss is 2.7367470264434814; cnn training accuracy is 39.85
+INFO:root:epoch: 265: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5429, 42.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.95, Avg loss: 1.8003 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3714, 52.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.95, Avg loss: 1.8003 
+INFO:root:Label Shift Accracy is: 58.76
+INFO:root:
+
+INFO:root:cnn training loss is 2.7368087525270424; cnn training accuracy is 39.81
+INFO:root:epoch: 266: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4429, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.8017 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2, 52.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.8017 
+INFO:root:Label Shift Accracy is: 58.72
+INFO:root:
+
+INFO:root:cnn training loss is 2.7360496618309798; cnn training accuracy is 39.77
+INFO:root:epoch: 267: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4429, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.8022 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2429, 52.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.8022 
+INFO:root:Label Shift Accracy is: 58.67
+INFO:root:
+
+INFO:root:cnn training loss is 2.735540282969572; cnn training accuracy is 39.76
+INFO:root:epoch: 268: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4286, 42.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.97, Avg loss: 1.7952 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3571, 52.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.97, Avg loss: 1.7952 
+INFO:root:Label Shift Accracy is: 58.74
+INFO:root:
+
+INFO:root:cnn training loss is 2.7351079376376406; cnn training accuracy is 39.72
+INFO:root:epoch: 269: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6286, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.05, Avg loss: 1.8009 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3571, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.05, Avg loss: 1.8009 
+INFO:root:Label Shift Accracy is: 58.59
+INFO:root:
+
+INFO:root:cnn training loss is 2.735857326157239; cnn training accuracy is 39.80
+INFO:root:epoch: 270: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1714, 42.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8034 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1429, 52.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8034 
+INFO:root:Label Shift Accracy is: 58.58
+INFO:root:
+
+INFO:root:cnn training loss is 2.735138752022568; cnn training accuracy is 39.76
+INFO:root:epoch: 271: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6, 42.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.07, Avg loss: 1.8032 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3429, 52.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.07, Avg loss: 1.8032 
+INFO:root:Label Shift Accracy is: 58.74
+INFO:root:
+
+INFO:root:cnn training loss is 2.735020092555455; cnn training accuracy is 39.71
+INFO:root:epoch: 272: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5571, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.8051 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2571, 52.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.8051 
+INFO:root:Label Shift Accracy is: 58.57
+INFO:root:
+
+INFO:root:cnn training loss is 2.735013772030266; cnn training accuracy is 39.76
+INFO:root:epoch: 273: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 58.01, Avg loss: 1.8060 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2857, 52.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.01, Avg loss: 1.8060 
+INFO:root:Label Shift Accracy is: 58.53
+INFO:root:
+
+INFO:root:cnn training loss is 2.733780695467579; cnn training accuracy is 39.71
+INFO:root:epoch: 274: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6, 42.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.86, Avg loss: 1.8066 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3429, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.86, Avg loss: 1.8066 
+INFO:root:Label Shift Accracy is: 58.58
+INFO:root:
+
+INFO:root:cnn training loss is 2.73433324268886; cnn training accuracy is 39.76
+INFO:root:epoch: 275: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4, 42.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.8086 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0714, 52.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.8086 
+INFO:root:Label Shift Accracy is: 58.48
+INFO:root:
+
+INFO:root:cnn training loss is 2.7341697994543583; cnn training accuracy is 39.85
+INFO:root:epoch: 276: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4143, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.90, Avg loss: 1.8102 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0714, 52.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.90, Avg loss: 1.8102 
+INFO:root:Label Shift Accracy is: 58.61
+INFO:root:
+
+INFO:root:cnn training loss is 2.7336104110795625; cnn training accuracy is 39.73
+INFO:root:epoch: 277: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7571, 42.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.03, Avg loss: 1.8117 
+INFO:root:Many Medium Few shot Top1 Acc: [61.6, 52.1, 0.0]
+INFO:root:Test Error:   Accuracy: 58.03, Avg loss: 1.8117 
+INFO:root:Label Shift Accracy is: 58.75
+INFO:root:
+
+INFO:root:cnn training loss is 2.733536194781868; cnn training accuracy is 39.77
+INFO:root:epoch: 278: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6286, 42.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.8052 
+INFO:root:Many Medium Few shot Top1 Acc: [61.4857, 52.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.8052 
+INFO:root:Label Shift Accracy is: 58.77
+INFO:root:
+
+INFO:root:cnn training loss is 2.7332828336832473; cnn training accuracy is 39.75
+INFO:root:epoch: 279: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5571, 42.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.87, Avg loss: 1.8112 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1429, 52.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.87, Avg loss: 1.8112 
+INFO:root:Label Shift Accracy is: 58.51
+INFO:root:
+
+INFO:root:cnn training loss is 2.7317307190019258; cnn training accuracy is 39.76
+INFO:root:epoch: 280: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4286, 42.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.8017 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2, 52.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.8017 
+INFO:root:Label Shift Accracy is: 58.62
+INFO:root:
+
+INFO:root:cnn training loss is 2.73278723930826; cnn training accuracy is 39.77
+INFO:root:epoch: 281: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 42.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.06, Avg loss: 1.8098 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0857, 52.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.06, Avg loss: 1.8098 
+INFO:root:Label Shift Accracy is: 58.58
+INFO:root:
+
+INFO:root:cnn training loss is 2.732726530152924; cnn training accuracy is 39.79
+INFO:root:epoch: 282: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6571, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 58.07, Avg loss: 1.8053 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2714, 52.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.07, Avg loss: 1.8053 
+INFO:root:Label Shift Accracy is: 58.56
+INFO:root:
+
+INFO:root:cnn training loss is 2.7317949606447804; cnn training accuracy is 39.76
+INFO:root:epoch: 283: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6857, 42.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.99, Avg loss: 1.8125 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1571, 52.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.99, Avg loss: 1.8125 
+INFO:root:Label Shift Accracy is: 58.5
+INFO:root:
+
+INFO:root:cnn training loss is 2.7312374844843026; cnn training accuracy is 39.81
+INFO:root:epoch: 284: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2429, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.89, Avg loss: 1.8102 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0429, 52.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.89, Avg loss: 1.8102 
+INFO:root:Label Shift Accracy is: 58.46
+INFO:root:
+
+INFO:root:cnn training loss is 2.7316728076156305; cnn training accuracy is 39.82
+INFO:root:epoch: 285: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5714, 42.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.8120 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9714, 52.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.8120 
+INFO:root:Label Shift Accracy is: 58.45
+INFO:root:
+
+INFO:root:cnn training loss is 2.7311902970683817; cnn training accuracy is 39.79
+INFO:root:epoch: 286: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3571, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.83, Avg loss: 1.8119 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2571, 52.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.83, Avg loss: 1.8119 
+INFO:root:Label Shift Accracy is: 58.73
+INFO:root:
+
+INFO:root:cnn training loss is 2.732089582754641; cnn training accuracy is 39.77
+INFO:root:epoch: 287: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 42.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.91, Avg loss: 1.8139 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3286, 52.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.91, Avg loss: 1.8139 
+INFO:root:Label Shift Accracy is: 58.6
+INFO:root:
+
+INFO:root:cnn training loss is 2.731230998525814; cnn training accuracy is 39.72
+INFO:root:epoch: 288: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4714, 43.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.8141 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9143, 52.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.10, Avg loss: 1.8141 
+INFO:root:Label Shift Accracy is: 58.31
+INFO:root:
+
+INFO:root:cnn training loss is 2.730628933225359; cnn training accuracy is 39.83
+INFO:root:epoch: 289: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7429, 42.3, 0.0]
+INFO:root:Test Error:   Accuracy: 58.01, Avg loss: 1.8146 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3714, 51.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.01, Avg loss: 1.8146 
+INFO:root:Label Shift Accracy is: 58.54
+INFO:root:
+
+INFO:root:cnn training loss is 2.7307873696697; cnn training accuracy is 39.75
+INFO:root:epoch: 290: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4429, 42.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.91, Avg loss: 1.8091 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2571, 52.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.91, Avg loss: 1.8091 
+INFO:root:Label Shift Accracy is: 58.63
+INFO:root:
+
+INFO:root:cnn training loss is 2.7304667064121793; cnn training accuracy is 39.76
+INFO:root:epoch: 291: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4286, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.93, Avg loss: 1.8109 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0571, 52.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.93, Avg loss: 1.8109 
+INFO:root:Label Shift Accracy is: 58.56
+INFO:root:
+
+INFO:root:cnn training loss is 2.730112056342923; cnn training accuracy is 39.74
+INFO:root:epoch: 292: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5714, 42.9, 0.0]
+INFO:root:Test Error:   Accuracy: 58.07, Avg loss: 1.8141 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0857, 52.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.07, Avg loss: 1.8141 
+INFO:root:Label Shift Accracy is: 58.59
+INFO:root:
+
+INFO:root:cnn training loss is 2.7297191911814163; cnn training accuracy is 39.77
+INFO:root:epoch: 293: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3429, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8239 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0857, 51.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8239 
+INFO:root:Label Shift Accracy is: 58.35
+INFO:root:
+
+INFO:root:cnn training loss is 2.7296261349502875; cnn training accuracy is 39.83
+INFO:root:epoch: 294: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3286, 43.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.94, Avg loss: 1.8138 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0571, 53.0, 0.0]
+INFO:root:Test Error:   Accuracy: 57.94, Avg loss: 1.8138 
+INFO:root:Label Shift Accracy is: 58.64
+INFO:root:
+
+INFO:root:cnn training loss is 2.729405179315684; cnn training accuracy is 39.76
+INFO:root:epoch: 295: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2286, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8115 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0429, 52.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8115 
+INFO:root:Label Shift Accracy is: 58.62
+INFO:root:
+
+INFO:root:cnn training loss is 2.7292091797809213; cnn training accuracy is 39.82
+INFO:root:epoch: 296: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4714, 43.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.08, Avg loss: 1.8121 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2571, 52.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.08, Avg loss: 1.8121 
+INFO:root:Label Shift Accracy is: 58.62
+INFO:root:
+
+INFO:root:cnn training loss is 2.729047527118605; cnn training accuracy is 39.70
+INFO:root:epoch: 297: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8187 
+INFO:root:Many Medium Few shot Top1 Acc: [61.3286, 52.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8187 
+INFO:root:Label Shift Accracy is: 58.68
+INFO:root:
+
+INFO:root:cnn training loss is 2.7290182356931725; cnn training accuracy is 39.79
+INFO:root:epoch: 298: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4857, 42.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.98, Avg loss: 1.8150 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1143, 52.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.98, Avg loss: 1.8150 
+INFO:root:Label Shift Accracy is: 58.61
+INFO:root:
+
+INFO:root:cnn training loss is 2.7284189584303875; cnn training accuracy is 39.80
+INFO:root:epoch: 299: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3714, 42.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.75, Avg loss: 1.8200 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9429, 52.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.75, Avg loss: 1.8200 
+INFO:root:Label Shift Accracy is: 58.41
+INFO:root:
+
+INFO:root:cnn training loss is 2.7288272332172006; cnn training accuracy is 39.82
+INFO:root:epoch: 300: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2, 42.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.78, Avg loss: 1.8214 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1714, 52.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.78, Avg loss: 1.8214 
+INFO:root:Label Shift Accracy is: 58.59
+INFO:root:
+
+INFO:root:cnn training loss is 2.7283469511538136; cnn training accuracy is 39.76
+INFO:root:epoch: 301: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2429, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8220 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9143, 52.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8220 
+INFO:root:Label Shift Accracy is: 58.46
+INFO:root:
+
+INFO:root:cnn training loss is 2.727825573512486; cnn training accuracy is 39.70
+INFO:root:epoch: 302: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3429, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8218 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2429, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8218 
+INFO:root:Label Shift Accracy is: 58.51
+INFO:root:
+
+INFO:root:cnn training loss is 2.7274285335930024; cnn training accuracy is 39.76
+INFO:root:epoch: 303: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6286, 42.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.97, Avg loss: 1.8168 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1, 52.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.97, Avg loss: 1.8168 
+INFO:root:Label Shift Accracy is: 58.47
+INFO:root:
+
+INFO:root:cnn training loss is 2.7277352858562858; cnn training accuracy is 39.84
+INFO:root:epoch: 304: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4286, 42.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.84, Avg loss: 1.8223 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2286, 52.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.84, Avg loss: 1.8223 
+INFO:root:Label Shift Accracy is: 58.53
+INFO:root:
+
+INFO:root:cnn training loss is 2.727862075883515; cnn training accuracy is 39.76
+INFO:root:epoch: 305: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4, 42.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.87, Avg loss: 1.8224 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9, 52.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.87, Avg loss: 1.8224 
+INFO:root:Label Shift Accracy is: 58.33
+INFO:root:
+
+INFO:root:cnn training loss is 2.7266645626145967; cnn training accuracy is 39.80
+INFO:root:epoch: 306: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5429, 42.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.83, Avg loss: 1.8261 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1143, 52.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.83, Avg loss: 1.8261 
+INFO:root:Label Shift Accracy is: 58.39
+INFO:root:
+
+INFO:root:cnn training loss is 2.7270330020359586; cnn training accuracy is 39.83
+INFO:root:epoch: 307: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3714, 43.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.98, Avg loss: 1.8237 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9429, 52.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.98, Avg loss: 1.8237 
+INFO:root:Label Shift Accracy is: 58.49
+INFO:root:
+
+INFO:root:cnn training loss is 2.7263905904730974; cnn training accuracy is 39.85
+INFO:root:epoch: 308: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3143, 42.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8306 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1143, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8306 
+INFO:root:Label Shift Accracy is: 58.42
+INFO:root:
+
+INFO:root:cnn training loss is 2.7271576949528287; cnn training accuracy is 39.83
+INFO:root:epoch: 309: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7571, 42.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.04, Avg loss: 1.8267 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1571, 52.2, 0.0]
+INFO:root:Test Error:   Accuracy: 58.04, Avg loss: 1.8267 
+INFO:root:Label Shift Accracy is: 58.47
+INFO:root:
+
+INFO:root:cnn training loss is 2.7266551621106205; cnn training accuracy is 39.86
+INFO:root:epoch: 310: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.8252 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2571, 51.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.96, Avg loss: 1.8252 
+INFO:root:Label Shift Accracy is: 58.45
+INFO:root:
+
+INFO:root:cnn training loss is 2.726219332948023; cnn training accuracy is 39.78
+INFO:root:epoch: 311: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4429, 42.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8277 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7143, 52.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8277 
+INFO:root:Label Shift Accracy is: 58.15
+INFO:root:
+
+INFO:root:cnn training loss is 2.7260130084290797; cnn training accuracy is 39.76
+INFO:root:epoch: 312: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3286, 42.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.76, Avg loss: 1.8266 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0286, 52.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.76, Avg loss: 1.8266 
+INFO:root:Label Shift Accracy is: 58.39
+INFO:root:
+
+INFO:root:cnn training loss is 2.725892733554451; cnn training accuracy is 39.86
+INFO:root:epoch: 313: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5571, 42.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.89, Avg loss: 1.8286 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2714, 52.0, 0.0]
+INFO:root:Test Error:   Accuracy: 57.89, Avg loss: 1.8286 
+INFO:root:Label Shift Accracy is: 58.49
+INFO:root:
+
+INFO:root:cnn training loss is 2.7251292637416293; cnn training accuracy is 39.82
+INFO:root:epoch: 314: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1571, 42.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.75, Avg loss: 1.8284 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9571, 52.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.75, Avg loss: 1.8284 
+INFO:root:Label Shift Accracy is: 58.4
+INFO:root:
+
+INFO:root:cnn training loss is 2.7257287064377143; cnn training accuracy is 39.77
+INFO:root:epoch: 315: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3, 42.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.72, Avg loss: 1.8270 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9857, 52.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.72, Avg loss: 1.8270 
+INFO:root:Label Shift Accracy is: 58.32
+INFO:root:
+
+INFO:root:cnn training loss is 2.7258058762063784; cnn training accuracy is 39.80
+INFO:root:epoch: 316: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5143, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8258 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7143, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8258 
+INFO:root:Label Shift Accracy is: 58.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.7253419866367263; cnn training accuracy is 39.83
+INFO:root:epoch: 317: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 42.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.72, Avg loss: 1.8297 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0857, 52.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.72, Avg loss: 1.8297 
+INFO:root:Label Shift Accracy is: 58.43
+INFO:root:
+
+INFO:root:cnn training loss is 2.72478141103472; cnn training accuracy is 39.84
+INFO:root:epoch: 318: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 42.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.75, Avg loss: 1.8290 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9714, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.75, Avg loss: 1.8290 
+INFO:root:Label Shift Accracy is: 58.32
+INFO:root:
+
+INFO:root:cnn training loss is 2.7246710475610225; cnn training accuracy is 39.82
+INFO:root:epoch: 319: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.84, Avg loss: 1.8280 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1, 52.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.84, Avg loss: 1.8280 
+INFO:root:Label Shift Accracy is: 58.54
+INFO:root:
+
+INFO:root:cnn training loss is 2.724492691001114; cnn training accuracy is 39.83
+INFO:root:epoch: 320: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 41.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.60, Avg loss: 1.8401 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0714, 51.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.60, Avg loss: 1.8401 
+INFO:root:Label Shift Accracy is: 58.27
+INFO:root:
+
+INFO:root:cnn training loss is 2.7234416153966166; cnn training accuracy is 39.80
+INFO:root:epoch: 321: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5714, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.95, Avg loss: 1.8320 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9429, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.95, Avg loss: 1.8320 
+INFO:root:Label Shift Accracy is: 58.3
+INFO:root:
+
+INFO:root:cnn training loss is 2.723698611162147; cnn training accuracy is 39.85
+INFO:root:epoch: 322: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4143, 42.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.89, Avg loss: 1.8337 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9143, 52.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.89, Avg loss: 1.8337 
+INFO:root:Label Shift Accracy is: 58.38
+INFO:root:
+
+INFO:root:cnn training loss is 2.7241192253268496; cnn training accuracy is 39.79
+INFO:root:epoch: 323: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2571, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8320 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8714, 52.2, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8320 
+INFO:root:Label Shift Accracy is: 58.27
+INFO:root:
+
+INFO:root:cnn training loss is 2.7240462351818473; cnn training accuracy is 39.80
+INFO:root:epoch: 324: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2714, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.77, Avg loss: 1.8376 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8286, 51.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.77, Avg loss: 1.8376 
+INFO:root:Label Shift Accracy is: 58.13
+INFO:root:
+
+INFO:root:cnn training loss is 2.723724686369604; cnn training accuracy is 39.80
+INFO:root:epoch: 325: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3571, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8312 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1857, 52.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8312 
+INFO:root:Label Shift Accracy is: 58.52
+INFO:root:
+
+INFO:root:cnn training loss is 2.7231916213522154; cnn training accuracy is 39.77
+INFO:root:epoch: 326: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4857, 42.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8403 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9714, 51.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8403 
+INFO:root:Label Shift Accracy is: 58.25
+INFO:root:
+
+INFO:root:cnn training loss is 2.7230509397934894; cnn training accuracy is 39.85
+INFO:root:epoch: 327: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5286, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.8326 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0714, 52.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.00, Avg loss: 1.8326 
+INFO:root:Label Shift Accracy is: 58.46
+INFO:root:
+
+INFO:root:cnn training loss is 2.722937282250852; cnn training accuracy is 39.85
+INFO:root:epoch: 328: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5429, 42.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.02, Avg loss: 1.8322 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1429, 52.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 58.02, Avg loss: 1.8322 
+INFO:root:Label Shift Accracy is: 58.51
+INFO:root:
+
+INFO:root:cnn training loss is 2.7232334273202077; cnn training accuracy is 39.78
+INFO:root:epoch: 329: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8441 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8441 
+INFO:root:Label Shift Accracy is: 58.2
+INFO:root:
+
+INFO:root:cnn training loss is 2.7228344946491476; cnn training accuracy is 39.80
+INFO:root:epoch: 330: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4286, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 57.82, Avg loss: 1.8395 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0286, 52.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.82, Avg loss: 1.8395 
+INFO:root:Label Shift Accracy is: 58.33
+INFO:root:
+
+INFO:root:cnn training loss is 2.722811659988092; cnn training accuracy is 39.86
+INFO:root:epoch: 331: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 42.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8379 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0857, 52.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8379 
+INFO:root:Label Shift Accracy is: 58.37
+INFO:root:
+
+INFO:root:cnn training loss is 2.722336905343192; cnn training accuracy is 39.83
+INFO:root:epoch: 332: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3286, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.84, Avg loss: 1.8358 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0429, 52.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.84, Avg loss: 1.8358 
+INFO:root:Label Shift Accracy is: 58.48
+INFO:root:
+
+INFO:root:cnn training loss is 2.721791389037152; cnn training accuracy is 39.89
+INFO:root:epoch: 333: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.7143, 42.8, 0.0]
+INFO:root:Test Error:   Accuracy: 58.14, Avg loss: 1.8340 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8857, 52.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.14, Avg loss: 1.8340 
+INFO:root:Label Shift Accracy is: 58.41
+INFO:root:
+
+INFO:root:cnn training loss is 2.7218369318514455; cnn training accuracy is 39.79
+INFO:root:epoch: 334: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4143, 41.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.66, Avg loss: 1.8439 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9714, 51.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.66, Avg loss: 1.8439 
+INFO:root:Label Shift Accracy is: 58.25
+INFO:root:
+
+INFO:root:cnn training loss is 2.721268264614806; cnn training accuracy is 39.84
+INFO:root:epoch: 335: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4714, 42.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.8350 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8429, 52.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.92, Avg loss: 1.8350 
+INFO:root:Label Shift Accracy is: 58.21
+INFO:root:
+
+INFO:root:cnn training loss is 2.721465217823885; cnn training accuracy is 39.81
+INFO:root:epoch: 336: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2571, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8405 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7714, 52.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8405 
+INFO:root:Label Shift Accracy is: 58.27
+INFO:root:
+
+INFO:root:cnn training loss is 2.721718710296008; cnn training accuracy is 39.78
+INFO:root:epoch: 337: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4857, 42.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8390 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9, 51.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8390 
+INFO:root:Label Shift Accracy is: 58.18
+INFO:root:
+
+INFO:root:cnn training loss is 2.7206679023042017; cnn training accuracy is 39.81
+INFO:root:epoch: 338: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4286, 42.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8430 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7857, 51.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8430 
+INFO:root:Label Shift Accracy is: 58.07
+INFO:root:
+
+INFO:root:cnn training loss is 2.7205786948301354; cnn training accuracy is 39.87
+INFO:root:epoch: 339: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3, 42.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8433 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9429, 52.2, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8433 
+INFO:root:Label Shift Accracy is: 58.32
+INFO:root:
+
+INFO:root:cnn training loss is 2.7205962940138213; cnn training accuracy is 39.79
+INFO:root:epoch: 340: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.69, Avg loss: 1.8429 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6, 52.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.69, Avg loss: 1.8429 
+INFO:root:Label Shift Accracy is: 58.1
+INFO:root:
+
+INFO:root:cnn training loss is 2.7207106376180845; cnn training accuracy is 39.86
+INFO:root:epoch: 341: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2714, 42.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.67, Avg loss: 1.8444 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0, 52.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.67, Avg loss: 1.8444 
+INFO:root:Label Shift Accracy is: 58.32
+INFO:root:
+
+INFO:root:cnn training loss is 2.720249964266407; cnn training accuracy is 39.90
+INFO:root:epoch: 342: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3714, 42.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8412 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9857, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.79, Avg loss: 1.8412 
+INFO:root:Label Shift Accracy is: 58.33
+INFO:root:
+
+INFO:root:cnn training loss is 2.719970703125; cnn training accuracy is 39.86
+INFO:root:epoch: 343: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3714, 42.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.76, Avg loss: 1.8485 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1857, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.76, Avg loss: 1.8485 
+INFO:root:Label Shift Accracy is: 58.47
+INFO:root:
+
+INFO:root:cnn training loss is 2.7201923642839705; cnn training accuracy is 39.76
+INFO:root:epoch: 344: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3714, 42.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8411 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8429, 52.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.88, Avg loss: 1.8411 
+INFO:root:Label Shift Accracy is: 58.27
+INFO:root:
+
+INFO:root:cnn training loss is 2.7200502473480848; cnn training accuracy is 39.80
+INFO:root:epoch: 345: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3286, 42.5667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8442 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8571, 52.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.80, Avg loss: 1.8442 
+INFO:root:Label Shift Accracy is: 58.3
+INFO:root:
+
+INFO:root:cnn training loss is 2.719617931210265; cnn training accuracy is 39.81
+INFO:root:epoch: 346: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3, 42.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8481 
+INFO:root:Many Medium Few shot Top1 Acc: [61.0, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8481 
+INFO:root:Label Shift Accracy is: 58.34
+INFO:root:
+
+INFO:root:cnn training loss is 2.719695271277914; cnn training accuracy is 39.78
+INFO:root:epoch: 347: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3429, 41.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.58, Avg loss: 1.8528 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7714, 51.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.58, Avg loss: 1.8528 
+INFO:root:Label Shift Accracy is: 58.07
+INFO:root:
+
+INFO:root:cnn training loss is 2.7188385068153846; cnn training accuracy is 39.80
+INFO:root:epoch: 348: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2143, 42.7667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.78, Avg loss: 1.8486 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5429, 52.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.78, Avg loss: 1.8486 
+INFO:root:Label Shift Accracy is: 58.08
+INFO:root:
+
+INFO:root:cnn training loss is 2.718878191344592; cnn training accuracy is 39.88
+INFO:root:epoch: 349: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6429, 42.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.04, Avg loss: 1.8467 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7714, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 58.04, Avg loss: 1.8467 
+INFO:root:Label Shift Accracy is: 58.18
+INFO:root:
+
+INFO:root:cnn training loss is 2.7188943259570064; cnn training accuracy is 39.80
+INFO:root:epoch: 350: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1857, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8487 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7286, 51.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8487 
+INFO:root:Label Shift Accracy is: 58.09
+INFO:root:
+
+INFO:root:cnn training loss is 2.718840569865947; cnn training accuracy is 39.82
+INFO:root:epoch: 351: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4857, 42.0, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8511 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8571, 51.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8511 
+INFO:root:Label Shift Accracy is: 58.12
+INFO:root:
+
+INFO:root:cnn training loss is 2.71809357526351; cnn training accuracy is 39.82
+INFO:root:epoch: 352: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.5714, 41.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8506 
+INFO:root:Many Medium Few shot Top1 Acc: [61.1857, 51.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8506 
+INFO:root:Label Shift Accracy is: 58.31
+INFO:root:
+
+INFO:root:cnn training loss is 2.718752150632897; cnn training accuracy is 39.76
+INFO:root:epoch: 353: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 42.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.83, Avg loss: 1.8492 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6857, 51.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.83, Avg loss: 1.8492 
+INFO:root:Label Shift Accracy is: 58.03
+INFO:root:
+
+INFO:root:cnn training loss is 2.7181590576561128; cnn training accuracy is 39.80
+INFO:root:epoch: 354: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2286, 42.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.59, Avg loss: 1.8517 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7857, 51.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.59, Avg loss: 1.8517 
+INFO:root:Label Shift Accracy is: 58.1
+INFO:root:
+
+INFO:root:cnn training loss is 2.7182584441438014; cnn training accuracy is 39.87
+INFO:root:epoch: 355: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8575 
+INFO:root:Many Medium Few shot Top1 Acc: [60.9714, 51.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8575 
+INFO:root:Label Shift Accracy is: 58.18
+INFO:root:
+
+INFO:root:cnn training loss is 2.7178845600206025; cnn training accuracy is 39.86
+INFO:root:epoch: 356: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1429, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8516 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4286, 52.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.71, Avg loss: 1.8516 
+INFO:root:Label Shift Accracy is: 58.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.7185155712828344; cnn training accuracy is 39.88
+INFO:root:epoch: 357: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3429, 42.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.72, Avg loss: 1.8526 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7857, 51.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.72, Avg loss: 1.8526 
+INFO:root:Label Shift Accracy is: 58.05
+INFO:root:
+
+INFO:root:cnn training loss is 2.7172592999983807; cnn training accuracy is 39.80
+INFO:root:epoch: 358: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2571, 42.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.77, Avg loss: 1.8497 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7286, 52.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.77, Avg loss: 1.8497 
+INFO:root:Label Shift Accracy is: 58.18
+INFO:root:
+
+INFO:root:cnn training loss is 2.7174255264048672; cnn training accuracy is 39.88
+INFO:root:epoch: 359: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2571, 42.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8535 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7, 51.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.73, Avg loss: 1.8535 
+INFO:root:Label Shift Accracy is: 58.07
+INFO:root:
+
+INFO:root:cnn training loss is 2.717303548540388; cnn training accuracy is 39.81
+INFO:root:epoch: 360: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3429, 42.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.65, Avg loss: 1.8556 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6714, 51.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.65, Avg loss: 1.8556 
+INFO:root:Label Shift Accracy is: 58.03
+INFO:root:
+
+INFO:root:cnn training loss is 2.717839445386614; cnn training accuracy is 39.84
+INFO:root:epoch: 361: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2, 42.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.63, Avg loss: 1.8563 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6429, 52.0, 0.0]
+INFO:root:Test Error:   Accuracy: 57.63, Avg loss: 1.8563 
+INFO:root:Label Shift Accracy is: 58.05
+INFO:root:
+
+INFO:root:cnn training loss is 2.717472100744442; cnn training accuracy is 39.85
+INFO:root:epoch: 362: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 57.66, Avg loss: 1.8549 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4286, 52.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.66, Avg loss: 1.8549 
+INFO:root:Label Shift Accracy is: 58.0
+INFO:root:
+
+INFO:root:cnn training loss is 2.7167055314900925; cnn training accuracy is 39.76
+INFO:root:epoch: 363: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1714, 42.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.60, Avg loss: 1.8586 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5143, 52.4, 0.0]
+INFO:root:Test Error:   Accuracy: 57.60, Avg loss: 1.8586 
+INFO:root:Label Shift Accracy is: 58.08
+INFO:root:
+
+INFO:root:cnn training loss is 2.716351776706929; cnn training accuracy is 39.85
+INFO:root:epoch: 364: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2714, 42.0, 0.0]
+INFO:root:Test Error:   Accuracy: 57.59, Avg loss: 1.8548 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7429, 52.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.59, Avg loss: 1.8548 
+INFO:root:Label Shift Accracy is: 58.15
+INFO:root:
+
+INFO:root:cnn training loss is 2.7167612484523227; cnn training accuracy is 39.84
+INFO:root:epoch: 365: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4429, 42.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.82, Avg loss: 1.8594 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7857, 51.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.82, Avg loss: 1.8594 
+INFO:root:Label Shift Accracy is: 58.06
+INFO:root:
+
+INFO:root:cnn training loss is 2.7158633154265734; cnn training accuracy is 39.78
+INFO:root:epoch: 366: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2, 42.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.59, Avg loss: 1.8654 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5143, 51.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.59, Avg loss: 1.8654 
+INFO:root:Label Shift Accracy is: 57.95
+INFO:root:
+
+INFO:root:cnn training loss is 2.7164507593427385; cnn training accuracy is 39.84
+INFO:root:epoch: 367: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2286, 42.4333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.69, Avg loss: 1.8590 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4143, 51.9667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.69, Avg loss: 1.8590 
+INFO:root:Label Shift Accracy is: 57.88
+INFO:root:
+
+INFO:root:cnn training loss is 2.7158724434521733; cnn training accuracy is 39.85
+INFO:root:epoch: 368: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1571, 42.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.60, Avg loss: 1.8565 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8, 51.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.60, Avg loss: 1.8565 
+INFO:root:Label Shift Accracy is: 58.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.7157897462650222; cnn training accuracy is 39.83
+INFO:root:epoch: 369: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2429, 42.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.67, Avg loss: 1.8554 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5, 51.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.67, Avg loss: 1.8554 
+INFO:root:Label Shift Accracy is: 57.91
+INFO:root:
+
+INFO:root:cnn training loss is 2.715663939106221; cnn training accuracy is 39.85
+INFO:root:epoch: 370: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2571, 42.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.68, Avg loss: 1.8595 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5, 51.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.68, Avg loss: 1.8595 
+INFO:root:Label Shift Accracy is: 57.89
+INFO:root:
+
+INFO:root:cnn training loss is 2.7151026239200515; cnn training accuracy is 39.83
+INFO:root:epoch: 371: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4571, 42.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8629 
+INFO:root:Many Medium Few shot Top1 Acc: [61.2286, 51.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8629 
+INFO:root:Label Shift Accracy is: 58.37
+INFO:root:
+
+INFO:root:cnn training loss is 2.7161736682969697; cnn training accuracy is 39.80
+INFO:root:epoch: 372: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4143, 42.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.77, Avg loss: 1.8600 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6143, 51.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.77, Avg loss: 1.8600 
+INFO:root:Label Shift Accracy is: 57.93
+INFO:root:
+
+INFO:root:cnn training loss is 2.7153021024197947; cnn training accuracy is 39.88
+INFO:root:epoch: 373: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.0571, 42.3333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.54, Avg loss: 1.8651 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4429, 52.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.54, Avg loss: 1.8651 
+INFO:root:Label Shift Accracy is: 57.99
+INFO:root:
+
+INFO:root:cnn training loss is 2.7156233690222917; cnn training accuracy is 39.79
+INFO:root:epoch: 374: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3429, 42.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.68, Avg loss: 1.8627 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8429, 51.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.68, Avg loss: 1.8627 
+INFO:root:Label Shift Accracy is: 58.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.7149911559357935; cnn training accuracy is 39.78
+INFO:root:epoch: 375: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.6, 41.2, 0.0]
+INFO:root:Test Error:   Accuracy: 57.58, Avg loss: 1.8716 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8714, 51.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.58, Avg loss: 1.8716 
+INFO:root:Label Shift Accracy is: 57.92
+INFO:root:
+
+INFO:root:cnn training loss is 2.71477764479968; cnn training accuracy is 39.89
+INFO:root:epoch: 376: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3143, 42.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.65, Avg loss: 1.8650 
+INFO:root:Many Medium Few shot Top1 Acc: [60.3857, 51.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.65, Avg loss: 1.8650 
+INFO:root:Label Shift Accracy is: 57.76
+INFO:root:
+
+INFO:root:cnn training loss is 2.714578463106739; cnn training accuracy is 39.87
+INFO:root:epoch: 377: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1571, 41.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.45, Avg loss: 1.8636 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4714, 51.5, 0.0]
+INFO:root:Test Error:   Accuracy: 57.45, Avg loss: 1.8636 
+INFO:root:Label Shift Accracy is: 57.78
+INFO:root:
+
+INFO:root:cnn training loss is 2.7148975742106534; cnn training accuracy is 39.84
+INFO:root:epoch: 378: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2, 42.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.58, Avg loss: 1.8636 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7429, 51.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.58, Avg loss: 1.8636 
+INFO:root:Label Shift Accracy is: 58.06
+INFO:root:
+
+INFO:root:cnn training loss is 2.714539216489208; cnn training accuracy is 39.80
+INFO:root:epoch: 379: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1, 42.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.68, Avg loss: 1.8603 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4857, 52.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.68, Avg loss: 1.8603 
+INFO:root:Label Shift Accracy is: 57.99
+INFO:root:
+
+INFO:root:cnn training loss is 2.7143664311389535; cnn training accuracy is 39.82
+INFO:root:epoch: 380: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2286, 42.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.57, Avg loss: 1.8604 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5571, 52.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.57, Avg loss: 1.8604 
+INFO:root:Label Shift Accracy is: 58.02
+INFO:root:
+
+INFO:root:cnn training loss is 2.713872023991176; cnn training accuracy is 39.81
+INFO:root:epoch: 381: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1714, 41.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.48, Avg loss: 1.8697 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6429, 51.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.48, Avg loss: 1.8697 
+INFO:root:Label Shift Accracy is: 58.02
+INFO:root:
+
+INFO:root:cnn training loss is 2.7135372697090614; cnn training accuracy is 39.85
+INFO:root:epoch: 382: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1714, 42.3667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.63, Avg loss: 1.8618 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6571, 52.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.63, Avg loss: 1.8618 
+INFO:root:Label Shift Accracy is: 58.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.7140303436590703; cnn training accuracy is 39.82
+INFO:root:epoch: 383: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1143, 42.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.70, Avg loss: 1.8610 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4571, 52.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.70, Avg loss: 1.8610 
+INFO:root:Label Shift Accracy is: 58.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.713484457560948; cnn training accuracy is 39.88
+INFO:root:epoch: 384: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.0143, 42.3, 0.0]
+INFO:root:Test Error:   Accuracy: 57.50, Avg loss: 1.8668 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4857, 51.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.50, Avg loss: 1.8668 
+INFO:root:Label Shift Accracy is: 57.9
+INFO:root:
+
+INFO:root:cnn training loss is 2.7138541085379466; cnn training accuracy is 39.84
+INFO:root:epoch: 385: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2571, 41.9, 0.0]
+INFO:root:Test Error:   Accuracy: 57.55, Avg loss: 1.8721 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5571, 51.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.55, Avg loss: 1.8721 
+INFO:root:Label Shift Accracy is: 57.74
+INFO:root:
+
+INFO:root:cnn training loss is 2.7133191313062395; cnn training accuracy is 39.84
+INFO:root:epoch: 386: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3857, 41.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.63, Avg loss: 1.8698 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7714, 51.5333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.63, Avg loss: 1.8698 
+INFO:root:Label Shift Accracy is: 58.0
+INFO:root:
+
+INFO:root:cnn training loss is 2.7131363518384037; cnn training accuracy is 39.84
+INFO:root:epoch: 387: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1857, 42.1, 0.0]
+INFO:root:Test Error:   Accuracy: 57.56, Avg loss: 1.8720 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6714, 51.7, 0.0]
+INFO:root:Test Error:   Accuracy: 57.56, Avg loss: 1.8720 
+INFO:root:Label Shift Accracy is: 57.98
+INFO:root:
+
+INFO:root:cnn training loss is 2.7135937846436793; cnn training accuracy is 39.83
+INFO:root:epoch: 388: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.61, Avg loss: 1.8693 
+INFO:root:Many Medium Few shot Top1 Acc: [60.6857, 52.1667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.61, Avg loss: 1.8693 
+INFO:root:Label Shift Accracy is: 58.13
+INFO:root:
+
+INFO:root:cnn training loss is 2.713015673111896; cnn training accuracy is 39.84
+INFO:root:epoch: 389: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2857, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.78, Avg loss: 1.8702 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4714, 51.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.78, Avg loss: 1.8702 
+INFO:root:Label Shift Accracy is: 57.83
+INFO:root:
+
+INFO:root:cnn training loss is 2.7125814106999613; cnn training accuracy is 39.81
+INFO:root:epoch: 390: 
+INFO:root:Many Medium Few shot Top1 Acc: [63.9, 42.6, 0.0]
+INFO:root:Test Error:   Accuracy: 57.51, Avg loss: 1.8715 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4286, 52.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.51, Avg loss: 1.8715 
+INFO:root:Label Shift Accracy is: 57.98
+INFO:root:
+
+INFO:root:cnn training loss is 2.7130623204367503; cnn training accuracy is 39.89
+INFO:root:epoch: 391: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.0857, 41.9333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.44, Avg loss: 1.8696 
+INFO:root:Many Medium Few shot Top1 Acc: [60.8143, 51.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.44, Avg loss: 1.8696 
+INFO:root:Label Shift Accracy is: 58.11
+INFO:root:
+
+INFO:root:cnn training loss is 2.712980810476809; cnn training accuracy is 39.84
+INFO:root:epoch: 392: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.1714, 42.4, 0.0]
+INFO:root:Test Error:   Accuracy: 57.64, Avg loss: 1.8689 
+INFO:root:Many Medium Few shot Top1 Acc: [60.2429, 52.0333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.64, Avg loss: 1.8689 
+INFO:root:Label Shift Accracy is: 57.78
+INFO:root:
+
+INFO:root:cnn training loss is 2.7123883013822594; cnn training accuracy is 39.86
+INFO:root:epoch: 393: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.4286, 41.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.64, Avg loss: 1.8750 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5429, 51.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.64, Avg loss: 1.8750 
+INFO:root:Label Shift Accracy is: 57.72
+INFO:root:
+
+INFO:root:cnn training loss is 2.7120550068057314; cnn training accuracy is 39.86
+INFO:root:epoch: 394: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3143, 41.6333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.51, Avg loss: 1.8724 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7, 51.7333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.51, Avg loss: 1.8724 
+INFO:root:Label Shift Accracy is: 58.01
+INFO:root:
+
+INFO:root:cnn training loss is 2.7117559082654057; cnn training accuracy is 39.84
+INFO:root:epoch: 395: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.0286, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.49, Avg loss: 1.8713 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7143, 52.1333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.49, Avg loss: 1.8713 
+INFO:root:Label Shift Accracy is: 58.14
+INFO:root:
+
+INFO:root:cnn training loss is 2.7116222868160325; cnn training accuracy is 39.79
+INFO:root:epoch: 396: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.2857, 42.4667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8721 
+INFO:root:Many Medium Few shot Top1 Acc: [60.4286, 51.8333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.74, Avg loss: 1.8721 
+INFO:root:Label Shift Accracy is: 57.85
+INFO:root:
+
+INFO:root:cnn training loss is 2.7123513902936662; cnn training accuracy is 39.86
+INFO:root:epoch: 397: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.0714, 42.2667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.53, Avg loss: 1.8756 
+INFO:root:Many Medium Few shot Top1 Acc: [60.3286, 51.6667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.53, Avg loss: 1.8756 
+INFO:root:Label Shift Accracy is: 57.73
+INFO:root:
+
+INFO:root:cnn training loss is 2.712311078091057; cnn training accuracy is 39.77
+INFO:root:epoch: 398: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.3286, 42.0667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.65, Avg loss: 1.8712 
+INFO:root:Many Medium Few shot Top1 Acc: [60.5714, 51.8, 0.0]
+INFO:root:Test Error:   Accuracy: 57.65, Avg loss: 1.8712 
+INFO:root:Label Shift Accracy is: 57.94
+INFO:root:
+
+INFO:root:cnn training loss is 2.7123011666901258; cnn training accuracy is 39.87
+INFO:root:epoch: 399: 
+INFO:root:Many Medium Few shot Top1 Acc: [64.0714, 42.2333, 0.0]
+INFO:root:Test Error:   Accuracy: 57.52, Avg loss: 1.8725 
+INFO:root:Many Medium Few shot Top1 Acc: [60.7143, 51.8667, 0.0]
+INFO:root:Test Error:   Accuracy: 57.52, Avg loss: 1.8725 
+INFO:root:Label Shift Accracy is: 58.06
+INFO:root:
+
+INFO:root: The best accuracy is 0.6145, The best label shift accuracy is 61.48
+INFO:root: the best accuracy ce mmf is [65.7429, 51.4333, 0.0]; the best acc pc mmf is [63.5571, 56.6333, 0.0]
