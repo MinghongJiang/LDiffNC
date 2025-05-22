@@ -1,7 +1,9 @@
 # LDiffNC
 神经崩溃隐空间扩散模型LDiffNC（Latent-based Diffusion Model with Neural Collapse）
 
-$$L_{LDM}=\mathbb{E} _{t~\left[ 1,T \right] ,y~\left[ 1,K \right] ,z_t,\epsilon _t}\left[ \left\| \epsilon _t-\epsilon _{\theta}\left( z_t,t,y \right) \right\| _{2}^{2} \right] $$
+$$
+L_{LDM}=\mathbb{E} _{t~\left[ 1,T \right] ,y~\left[ 1,K \right] ,z_t,\epsilon _t}\left[ \left\| \epsilon _t-\epsilon _{\theta}\left( z_t,t,y \right) \right\| _{2}^{2} \right] 
+$$
 
 $$L_{Intra}(z_t,y,t)=\mathbb{E} _{t\sim [1,T],y\sim [1,K],z_t}[\parallel f_{\varphi}^{*}(G_{\theta}(z_t,t,y))-\mu _y\parallel _{2}^{2}]$$
 
